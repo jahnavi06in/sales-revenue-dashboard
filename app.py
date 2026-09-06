@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 
 st.set_page_config(
     page_title="InsightWorks",
@@ -8,105 +9,127 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-df = pd.read_csv("hardware_companies_sales.csv")
+df = pd.read_csv("sales_data.csv")
 df["Date"] = pd.to_datetime(df["Date"])
 
 st.markdown("""
 <style>
 .stApp {
-    background: #f5f7fb;
+    background: #f4f6fa;
 }
+
 header {
     visibility: hidden;
 }
+
 #MainMenu {
     visibility: hidden;
 }
+
 footer {
     visibility: hidden;
 }
+
 [data-testid="stSidebar"] {
-    background: #172b4d;
+    background: #17345f;
 }
+
 [data-testid="stSidebar"] * {
     color: white !important;
 }
+
 .logo {
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 700;
     text-align: center;
-    padding: 12px 0 30px 0;
-    letter-spacing: 0.5px;
+    padding: 12px 0 28px;
 }
+
 .logo span {
-    color: #5b8def;
+    color: #61a0ff;
 }
-.menu-title {
+
+.side-title {
     font-size: 11px;
-    color: #aab6ca !important;
-    font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 8px;
+    color: #aebbd0 !important;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
-.main-title {
+
+.page-title {
     font-size: 30px;
     font-weight: 700;
-    color: #18243d;
+    color: #17233d;
 }
-.subtitle {
+
+.page-subtitle {
+    font-size: 13px;
     color: #7e899e;
-    font-size: 14px;
     margin-bottom: 22px;
 }
-.card {
+
+.kpi {
     background: white;
-    padding: 20px;
     border-radius: 12px;
-    border: 1px solid #e5e9f2;
+    padding: 20px;
+    border: 1px solid #e4e8f0;
     box-shadow: 0 3px 12px rgba(0,0,0,0.04);
 }
-.card-label {
+
+.kpi-name {
     color: #8a94a8;
     font-size: 11px;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
 }
-.card-value {
-    color: #18243d;
-    font-size: 26px;
+
+.kpi-value {
+    color: #17233d;
+    font-size: 25px;
     font-weight: 700;
-    margin-top: 8px;
+    margin-top: 7px;
 }
-.panel {
+
+.box {
     background: white;
-    padding: 20px;
     border-radius: 12px;
-    border: 1px solid #e5e9f2;
+    padding: 18px;
+    border: 1px solid #e4e8f0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.035);
     margin-top: 20px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.03);
 }
-.panel-title {
-    color: #26334f;
-    font-size: 17px;
+
+.box-title {
+    color: #26334e;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 4px;
 }
-.panel-subtitle {
-    color: #929caf;
-    font-size: 12px;
-    margin-bottom: 15px;
+
+.box-subtitle {
+    color: #929bad;
+    font-size: 11px;
+    margin-bottom: 12px;
 }
+
+div[data-testid="stMetric"] {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
 with st.sidebar:
+
     st.markdown(
         '<div class="logo">Insight<span>Works</span></div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="menu-title">MAIN MENU</div>',
+        '<div class="side-title">MAIN MENU</div>',
         unsafe_allow_html=True
     )
 
@@ -126,32 +149,32 @@ with st.sidebar:
     st.markdown("---")
 
     st.markdown(
-        '<div class="menu-title">FILTER DATA</div>',
+        '<div class="side-title">FILTERS</div>',
         unsafe_allow_html=True
     )
 
-    selected_company = st.multiselect(
+    companies = st.multiselect(
         "Company",
         sorted(df["Company"].unique()),
         default=sorted(df["Company"].unique())
     )
 
-    selected_category = st.multiselect(
+    categories = st.multiselect(
         "Category",
         sorted(df["Category"].unique()),
         default=sorted(df["Category"].unique())
     )
 
-    selected_region = st.multiselect(
+    regions = st.multiselect(
         "Region",
         sorted(df["Region"].unique()),
         default=sorted(df["Region"].unique())
     )
 
 data = df[
-    df["Company"].isin(selected_company)
-    & df["Category"].isin(selected_category)
-    & df["Region"].isin(selected_region)
+    df["Company"].isin(companies)
+    & df["Category"].isin(categories)
+    & df["Region"].isin(regions)
 ].copy()
 
 if data.empty:
@@ -161,161 +184,338 @@ if data.empty:
 total_sales = data["Sales"].sum()
 total_revenue = data["Revenue"].sum()
 total_units = data["Quantity"].sum()
-total_companies = data["Company"].nunique()
+company_count = data["Company"].nunique()
+
+data["Month"] = data["Date"].dt.to_period("M").astype(str)
+
+monthly = (
+    data.groupby("Month")
+    .agg(
+        Sales=("Sales", "sum"),
+        Revenue=("Revenue", "sum")
+    )
+    .reset_index()
+)
+
+regional = (
+    data.groupby("Region")["Revenue"]
+    .sum()
+    .reset_index()
+)
+
+products = (
+    data.groupby("Product")["Revenue"]
+    .sum()
+    .reset_index()
+    .sort_values("Revenue", ascending=False)
+    .head(8)
+)
+
+company_data = (
+    data.groupby("Company")["Revenue"]
+    .sum()
+    .reset_index()
+    .sort_values("Revenue", ascending=False)
+)
+
+category_data = (
+    data.groupby("Category")["Revenue"]
+    .sum()
+    .reset_index()
+    .sort_values("Revenue", ascending=False)
+)
 
 if page == "🏠 Dashboard":
 
     st.markdown(
-        '<div class="main-title">Sales & Revenue Overview</div>',
+        '<div class="page-title">Sales & Revenue Overview</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="subtitle">InsightWorks | Hardware companies performance analysis</div>',
+        '<div class="page-subtitle">InsightWorks • Hardware business performance dashboard</div>',
         unsafe_allow_html=True
     )
 
-    c1, c2, c3, c4 = st.columns(4)
+    k1, k2, k3, k4 = st.columns(4)
 
-    with c1:
+    with k1:
         st.markdown(f"""
-        <div class="card">
-            <div class="card-label">TOTAL SALES</div>
-            <div class="card-value">${total_sales:,.0f}</div>
+        <div class="kpi">
+            <div class="kpi-name">TOTAL SALES</div>
+            <div class="kpi-value">${total_sales:,.0f}</div>
         </div>
         """, unsafe_allow_html=True)
 
-    with c2:
+    with k2:
         st.markdown(f"""
-        <div class="card">
-            <div class="card-label">TOTAL REVENUE</div>
-            <div class="card-value">${total_revenue:,.0f}</div>
+        <div class="kpi">
+            <div class="kpi-name">TOTAL REVENUE</div>
+            <div class="kpi-value">${total_revenue:,.0f}</div>
         </div>
         """, unsafe_allow_html=True)
 
-    with c3:
+    with k3:
         st.markdown(f"""
-        <div class="card">
-            <div class="card-label">UNITS SOLD</div>
-            <div class="card-value">{total_units:,}</div>
+        <div class="kpi">
+            <div class="kpi-name">UNITS SOLD</div>
+            <div class="kpi-value">{total_units:,}</div>
         </div>
         """, unsafe_allow_html=True)
 
-    with c4:
+    with k4:
         st.markdown(f"""
-        <div class="card">
-            <div class="card-label">COMPANIES</div>
-            <div class="card-value">{total_companies}</div>
+        <div class="kpi">
+            <div class="kpi-name">COMPANIES</div>
+            <div class="kpi-value">{company_count}</div>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Revenue Trend</div>
-        <div class="panel-subtitle">Monthly revenue performance</div>
+    <div class="box">
+        <div class="box-title">Monthly Sales & Revenue</div>
+        <div class="box-subtitle">Performance across the selected period</div>
     """, unsafe_allow_html=True)
 
-    monthly = (
-        data.set_index("Date")
-        .resample("ME")["Revenue"]
-        .sum()
-    )
+    chart = alt.Chart(monthly).transform_fold(
+        ["Sales", "Revenue"],
+        as_=["Metric", "Value"]
+    ).mark_bar(
+        cornerRadiusTopLeft=4,
+        cornerRadiusTopRight=4
+    ).encode(
+        x=alt.X(
+            "Month:N",
+            sort=list(monthly["Month"]),
+            title=None,
+            axis=alt.Axis(labelAngle=-45)
+        ),
+        y=alt.Y(
+            "Value:Q",
+            title="Amount"
+        ),
+        color=alt.Color(
+            "Metric:N",
+            title=None
+        ),
+        tooltip=[
+            alt.Tooltip("Month:N", title="Month"),
+            alt.Tooltip("Metric:N", title="Metric"),
+            alt.Tooltip("Value:Q", title="Amount", format=",.0f")
+        ]
+    ).properties(height=330)
 
-    st.line_chart(monthly, use_container_width=True)
+    st.altair_chart(chart, use_container_width=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-    col1, col2 = st.columns(2)
+    left, right = st.columns([1.15, 1])
 
-    with col1:
+    with left:
+
         st.markdown("""
-        <div class="panel">
-            <div class="panel-title">Regional Performance</div>
-            <div class="panel-subtitle">Revenue by region</div>
+        <div class="box">
+            <div class="box-title">Revenue Trend</div>
+            <div class="box-subtitle">Monthly revenue movement</div>
         """, unsafe_allow_html=True)
 
-        regional = (
-            data.groupby("Region")["Revenue"]
-            .sum()
-            .sort_values(ascending=False)
-        )
+        area_chart = alt.Chart(monthly).mark_area(
+            opacity=0.65,
+            line=True
+        ).encode(
+            x=alt.X(
+                "Month:N",
+                sort=list(monthly["Month"]),
+                title=None,
+                axis=alt.Axis(labelAngle=-45)
+            ),
+            y=alt.Y(
+                "Revenue:Q",
+                title="Revenue"
+            ),
+            tooltip=[
+                alt.Tooltip("Month:N", title="Month"),
+                alt.Tooltip(
+                    "Revenue:Q",
+                    title="Revenue",
+                    format=",.0f"
+                )
+            ]
+        ).properties(height=280)
 
-        st.bar_chart(regional, use_container_width=True)
+        st.altair_chart(
+            area_chart,
+            use_container_width=True
+        )
 
         st.markdown("</div>", unsafe_allow_html=True)
 
-    with col2:
+    with right:
+
         st.markdown("""
-        <div class="panel">
-            <div class="panel-title">Top Performing Products</div>
-            <div class="panel-subtitle">Top products by revenue</div>
+        <div class="box">
+            <div class="box-title">Regional Revenue</div>
+            <div class="box-subtitle">Revenue distribution by region</div>
         """, unsafe_allow_html=True)
 
-        products = (
-            data.groupby("Product")["Revenue"]
-            .sum()
-            .sort_values(ascending=False)
-            .head(7)
+        donut = alt.Chart(regional).mark_arc(
+            innerRadius=65,
+            outerRadius=105
+        ).encode(
+            theta=alt.Theta(
+                "Revenue:Q",
+                stack=True
+            ),
+            color=alt.Color(
+                "Region:N",
+                title="Region"
+            ),
+            tooltip=[
+                alt.Tooltip("Region:N", title="Region"),
+                alt.Tooltip(
+                    "Revenue:Q",
+                    title="Revenue",
+                    format=",.0f"
+                )
+            ]
+        ).properties(height=280)
+
+        st.altair_chart(
+            donut,
+            use_container_width=True
         )
 
-        st.bar_chart(products, use_container_width=True)
-
         st.markdown("</div>", unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="box">
+        <div class="box-title">Top Performing Products</div>
+        <div class="box-subtitle">Products ranked by revenue</div>
+    """, unsafe_allow_html=True)
+
+    product_chart = alt.Chart(products).mark_bar(
+        cornerRadiusEnd=5
+    ).encode(
+        x=alt.X(
+            "Revenue:Q",
+            title="Revenue"
+        ),
+        y=alt.Y(
+            "Product:N",
+            sort="-x",
+            title=None
+        ),
+        tooltip=[
+            alt.Tooltip("Product:N", title="Product"),
+            alt.Tooltip(
+                "Revenue:Q",
+                title="Revenue",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=300)
+
+    st.altair_chart(
+        product_chart,
+        use_container_width=True
+    )
+
+    st.markdown("</div>", unsafe_allow_html=True)
 
 elif page == "💰 Sales":
 
     st.markdown(
-        '<div class="main-title">Sales Analysis</div>',
+        '<div class="page-title">Sales Analysis</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="subtitle">Detailed sales performance</div>',
+        '<div class="page-subtitle">Detailed sales performance and trends</div>',
         unsafe_allow_html=True
     )
 
-    c1, c2, c3 = st.columns(3)
+    a, b, c = st.columns(3)
 
-    c1.metric("Total Sales", f"${total_sales:,.0f}")
-    c2.metric("Total Revenue", f"${total_revenue:,.0f}")
-    c3.metric("Units Sold", f"{total_units:,}")
+    a.metric("Total Sales", f"${total_sales:,.0f}")
+    b.metric("Total Revenue", f"${total_revenue:,.0f}")
+    c.metric("Units Sold", f"{total_units:,}")
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Monthly Sales</div>
-        <div class="panel-subtitle">Sales trend over time</div>
+    <div class="box">
+        <div class="box-title">Sales Trend</div>
+        <div class="box-subtitle">Monthly sales performance</div>
     """, unsafe_allow_html=True)
 
-    monthly_sales = (
-        data.set_index("Date")
-        .resample("ME")["Sales"]
-        .sum()
-    )
+    sales_chart = alt.Chart(monthly).mark_line(
+        point=True
+    ).encode(
+        x=alt.X(
+            "Month:N",
+            sort=list(monthly["Month"]),
+            title=None,
+            axis=alt.Axis(labelAngle=-45)
+        ),
+        y=alt.Y(
+            "Sales:Q",
+            title="Sales"
+        ),
+        tooltip=[
+            alt.Tooltip("Month:N", title="Month"),
+            alt.Tooltip(
+                "Sales:Q",
+                title="Sales",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=350)
 
-    st.line_chart(monthly_sales, use_container_width=True)
+    st.altair_chart(
+        sales_chart,
+        use_container_width=True
+    )
 
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Sales by Category</div>
-        <div class="panel-subtitle">Category-wise sales performance</div>
+    <div class="box">
+        <div class="box-title">Sales by Category</div>
+        <div class="box-subtitle">Category-wise sales performance</div>
     """, unsafe_allow_html=True)
 
-    category_sales = (
+    sales_category = (
         data.groupby("Category")["Sales"]
         .sum()
-        .sort_values(ascending=False)
+        .reset_index()
+        .sort_values("Sales", ascending=False)
     )
 
-    st.bar_chart(category_sales, use_container_width=True)
+    category_chart = alt.Chart(sales_category).mark_bar(
+        cornerRadiusTopLeft=5,
+        cornerRadiusTopRight=5
+    ).encode(
+        x=alt.X("Category:N", title=None),
+        y=alt.Y("Sales:Q", title="Sales"),
+        tooltip=[
+            alt.Tooltip("Category:N", title="Category"),
+            alt.Tooltip(
+                "Sales:Q",
+                title="Sales",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=320)
+
+    st.altair_chart(
+        category_chart,
+        use_container_width=True
+    )
 
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Sales Transactions</div>
-        <div class="panel-subtitle">Detailed sales records</div>
+    <div class="box">
+        <div class="box-title">Transaction Data</div>
+        <div class="box-subtitle">Filtered sales records</div>
     """, unsafe_allow_html=True)
 
     st.dataframe(
@@ -329,16 +529,57 @@ elif page == "💰 Sales":
 elif page == "📦 Products":
 
     st.markdown(
-        '<div class="main-title">Product Analysis</div>',
+        '<div class="page-title">Product Performance</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="subtitle">Product and category performance</div>',
+        '<div class="page-subtitle">Product revenue and sales analysis</div>',
         unsafe_allow_html=True
     )
 
-    product_data = (
+    st.markdown("""
+    <div class="box">
+        <div class="box-title">Top Products by Revenue</div>
+        <div class="box-subtitle">Highest revenue-generating products</div>
+    """, unsafe_allow_html=True)
+
+    product_chart = alt.Chart(products).mark_bar(
+        cornerRadiusEnd=6
+    ).encode(
+        x=alt.X(
+            "Revenue:Q",
+            title="Revenue"
+        ),
+        y=alt.Y(
+            "Product:N",
+            sort="-x",
+            title=None
+        ),
+        tooltip=[
+            alt.Tooltip("Product:N", title="Product"),
+            alt.Tooltip(
+                "Revenue:Q",
+                title="Revenue",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=380)
+
+    st.altair_chart(
+        product_chart,
+        use_container_width=True
+    )
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="box">
+        <div class="box-title">Product Performance Table</div>
+        <div class="box-subtitle">Revenue, sales and units sold</div>
+    """, unsafe_allow_html=True)
+
+    product_table = (
         data.groupby("Product")
         .agg(
             Revenue=("Revenue", "sum"),
@@ -348,50 +589,8 @@ elif page == "📦 Products":
         .sort_values("Revenue", ascending=False)
     )
 
-    st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Top Products</div>
-        <div class="panel-subtitle">Products ranked by revenue</div>
-    """, unsafe_allow_html=True)
-
-    st.bar_chart(
-        product_data["Revenue"].head(10),
-        use_container_width=True
-    )
-
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Product Performance</div>
-        <div class="panel-subtitle">Revenue, sales and units</div>
-    """, unsafe_allow_html=True)
-
     st.dataframe(
-        product_data,
-        use_container_width=True
-    )
-
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    category_data = (
-        data.groupby("Category")
-        .agg(
-            Revenue=("Revenue", "sum"),
-            Sales=("Sales", "sum"),
-            Units=("Quantity", "sum")
-        )
-        .sort_values("Revenue", ascending=False)
-    )
-
-    st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Category Performance</div>
-        <div class="panel-subtitle">Performance by category</div>
-    """, unsafe_allow_html=True)
-
-    st.dataframe(
-        category_data,
+        product_table,
         use_container_width=True
     )
 
@@ -400,16 +599,58 @@ elif page == "📦 Products":
 elif page == "🏢 Companies":
 
     st.markdown(
-        '<div class="main-title">Company Analysis</div>',
+        '<div class="page-title">Company Performance</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="subtitle">Compare hardware companies</div>',
+        '<div class="page-subtitle">Compare hardware companies by revenue</div>',
         unsafe_allow_html=True
     )
 
-    company_data = (
+    st.markdown("""
+    <div class="box">
+        <div class="box-title">Company Revenue</div>
+        <div class="box-subtitle">Revenue comparison across companies</div>
+    """, unsafe_allow_html=True)
+
+    company_chart = alt.Chart(company_data).mark_bar(
+        cornerRadiusTopLeft=5,
+        cornerRadiusTopRight=5
+    ).encode(
+        x=alt.X(
+            "Company:N",
+            title=None,
+            sort="-y"
+        ),
+        y=alt.Y(
+            "Revenue:Q",
+            title="Revenue"
+        ),
+        tooltip=[
+            alt.Tooltip("Company:N", title="Company"),
+            alt.Tooltip(
+                "Revenue:Q",
+                title="Revenue",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=380)
+
+    st.altair_chart(
+        company_chart,
+        use_container_width=True
+    )
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="box">
+        <div class="box-title">Company Ranking</div>
+        <div class="box-subtitle">Performance details</div>
+    """, unsafe_allow_html=True)
+
+    company_table = (
         data.groupby("Company")
         .agg(
             Revenue=("Revenue", "sum"),
@@ -419,51 +660,96 @@ elif page == "🏢 Companies":
         .sort_values("Revenue", ascending=False)
     )
 
-    st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Company Revenue</div>
-        <div class="panel-subtitle">Revenue generated by each company</div>
-    """, unsafe_allow_html=True)
-
-    st.bar_chart(
-        company_data["Revenue"],
-        use_container_width=True
-    )
-
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Company Performance</div>
-        <div class="panel-subtitle">Detailed company metrics</div>
-    """, unsafe_allow_html=True)
-
     st.dataframe(
-        company_data,
+        company_table,
         use_container_width=True
     )
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-    best_company = company_data["Revenue"].idxmax()
+    best_company = company_table.index[0]
 
     st.success(
-        f"🏆 Top-performing company: {best_company}"
+        f"🏆 Leading company: {best_company}"
     )
 
 elif page == "🌍 Regions":
 
     st.markdown(
-        '<div class="main-title">Regional Analysis</div>',
+        '<div class="page-title">Regional Performance</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="subtitle">Sales and revenue across regions</div>',
+        '<div class="page-subtitle">Revenue and sales distribution across regions</div>',
         unsafe_allow_html=True
     )
 
-    region_data = (
+    left, right = st.columns(2)
+
+    with left:
+
+        st.markdown("""
+        <div class="box">
+            <div class="box-title">Regional Revenue</div>
+            <div class="box-subtitle">Revenue distribution</div>
+        """, unsafe_allow_html=True)
+
+        donut = alt.Chart(regional).mark_arc(
+            innerRadius=70,
+            outerRadius=120
+        ).encode(
+            theta=alt.Theta("Revenue:Q"),
+            color=alt.Color("Region:N", title="Region"),
+            tooltip=[
+                alt.Tooltip("Region:N", title="Region"),
+                alt.Tooltip(
+                    "Revenue:Q",
+                    title="Revenue",
+                    format=",.0f"
+                )
+            ]
+        ).properties(height=350)
+
+        st.altair_chart(
+            donut,
+            use_container_width=True
+        )
+
+        st.markdown("</div>", unsafe_allow_html=True)
+
+    with right:
+
+        st.markdown("""
+        <div class="box">
+            <div class="box-title">Regional Comparison</div>
+            <div class="box-subtitle">Revenue by region</div>
+        """, unsafe_allow_html=True)
+
+        region_bar = alt.Chart(regional).mark_bar(
+            cornerRadiusTopLeft=5,
+            cornerRadiusTopRight=5
+        ).encode(
+            x=alt.X("Region:N", title=None),
+            y=alt.Y("Revenue:Q", title="Revenue"),
+            tooltip=[
+                alt.Tooltip("Region:N", title="Region"),
+                alt.Tooltip(
+                    "Revenue:Q",
+                    title="Revenue",
+                    format=",.0f"
+                )
+            ]
+        ).properties(height=350)
+
+        st.altair_chart(
+            region_bar,
+            use_container_width=True
+        )
+
+        st.markdown("</div>", unsafe_allow_html=True)
+
+    region_table = (
         data.groupby("Region")
         .agg(
             Revenue=("Revenue", "sum"),
@@ -474,78 +760,44 @@ elif page == "🌍 Regions":
     )
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Revenue by Region</div>
-        <div class="panel-subtitle">Regional revenue comparison</div>
-    """, unsafe_allow_html=True)
-
-    st.bar_chart(
-        region_data["Revenue"],
-        use_container_width=True
-    )
-
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Regional Performance</div>
-        <div class="panel-subtitle">Detailed regional metrics</div>
+    <div class="box">
+        <div class="box-title">Regional Performance Table</div>
+        <div class="box-subtitle">Detailed regional metrics</div>
     """, unsafe_allow_html=True)
 
     st.dataframe(
-        region_data,
+        region_table,
         use_container_width=True
     )
 
     st.markdown("</div>", unsafe_allow_html=True)
-
-    best_region = region_data["Revenue"].idxmax()
-
-    st.success(
-        f"🌟 Best-performing region: {best_region}"
-    )
 
 elif page == "📈 Analytics":
 
     st.markdown(
-        '<div class="main-title">Business Analytics</div>',
+        '<div class="page-title">Business Analytics</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        '<div class="subtitle">Key insights from sales and revenue data</div>',
+        '<div class="page-subtitle">Key business insights from the selected data</div>',
         unsafe_allow_html=True
     )
 
-    average_transaction = data["Revenue"].mean()
+    best_product = products.iloc[0]["Product"]
+    best_company = company_data.iloc[0]["Company"]
+    best_region = regional.sort_values(
+        "Revenue",
+        ascending=False
+    ).iloc[0]["Region"]
 
-    product_revenue = (
-        data.groupby("Product")["Revenue"]
-        .sum()
-        .sort_values(ascending=False)
-    )
+    average_revenue = data["Revenue"].mean()
 
-    company_revenue = (
-        data.groupby("Company")["Revenue"]
-        .sum()
-        .sort_values(ascending=False)
-    )
-
-    region_revenue = (
-        data.groupby("Region")["Revenue"]
-        .sum()
-        .sort_values(ascending=False)
-    )
-
-    best_product = product_revenue.idxmax()
-    best_company = company_revenue.idxmax()
-    best_region = region_revenue.idxmax()
-
-    c1, c2, c3 = st.columns(3)
+    c1, c2, c3, c4 = st.columns(4)
 
     c1.metric(
         "Average Revenue",
-        f"${average_transaction:,.2f}"
+        f"${average_revenue:,.0f}"
     )
 
     c2.metric(
@@ -558,49 +810,93 @@ elif page == "📈 Analytics":
         best_company
     )
 
+    c4.metric(
+        "Top Region",
+        best_region
+    )
+
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Revenue by Company</div>
-        <div class="panel-subtitle">Company comparison</div>
+    <div class="box">
+        <div class="box-title">Company Revenue Analysis</div>
+        <div class="box-subtitle">Revenue contribution by company</div>
     """, unsafe_allow_html=True)
 
-    st.bar_chart(
-        company_revenue,
+    company_chart = alt.Chart(company_data).mark_bar(
+        cornerRadiusTopLeft=5,
+        cornerRadiusTopRight=5
+    ).encode(
+        x=alt.X(
+            "Company:N",
+            sort="-y",
+            title=None
+        ),
+        y=alt.Y(
+            "Revenue:Q",
+            title="Revenue"
+        ),
+        tooltip=[
+            alt.Tooltip("Company:N", title="Company"),
+            alt.Tooltip(
+                "Revenue:Q",
+                title="Revenue",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=350)
+
+    st.altair_chart(
+        company_chart,
         use_container_width=True
     )
 
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Revenue by Category</div>
-        <div class="panel-subtitle">Category contribution to revenue</div>
+    <div class="box">
+        <div class="box-title">Category Revenue</div>
+        <div class="box-subtitle">Revenue contribution by category</div>
     """, unsafe_allow_html=True)
 
-    category_revenue = (
-        data.groupby("Category")["Revenue"]
-        .sum()
-        .sort_values(ascending=False)
-    )
+    category_chart = alt.Chart(category_data).mark_bar(
+        cornerRadiusEnd=5
+    ).encode(
+        x=alt.X(
+            "Revenue:Q",
+            title="Revenue"
+        ),
+        y=alt.Y(
+            "Category:N",
+            sort="-x",
+            title=None
+        ),
+        tooltip=[
+            alt.Tooltip("Category:N", title="Category"),
+            alt.Tooltip(
+                "Revenue:Q",
+                title="Revenue",
+                format=",.0f"
+            )
+        ]
+    ).properties(height=320)
 
-    st.bar_chart(
-        category_revenue,
+    st.altair_chart(
+        category_chart,
         use_container_width=True
     )
 
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("""
-    <div class="panel">
-        <div class="panel-title">Key Business Insights</div>
-        <div class="panel-subtitle">Automatically generated insights</div>
+    <div class="box">
+        <div class="box-title">Business Insights</div>
+        <div class="box-subtitle">Automatically calculated from the dashboard data</div>
     """, unsafe_allow_html=True)
 
-    st.write(f"🏆 **Top Company:** {best_company}")
-    st.write(f"📦 **Top Product:** {best_product}")
-    st.write(f"🌍 **Top Region:** {best_region}")
-    st.write(f"💰 **Total Revenue:** ${total_revenue:,.0f}")
-    st.write(f"💵 **Total Sales:** ${total_sales:,.0f}")
-    st.write(f"📦 **Units Sold:** {total_units:,}")
+    st.write(f"🏆 **Top-performing company:** {best_company}")
+    st.write(f"📦 **Top-performing product:** {best_product}")
+    st.write(f"🌍 **Top-performing region:** {best_region}")
+    st.write(f"💰 **Total revenue:** ${total_revenue:,.0f}")
+    st.write(f"💵 **Total sales:** ${total_sales:,.0f}")
+    st.write(f"📦 **Units sold:** {total_units:,}")
 
     st.markdown("</div>", unsafe_allow_html=True)

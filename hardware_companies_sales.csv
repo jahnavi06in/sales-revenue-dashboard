@@ -1,0 +1,1501 @@
+Date,Company,Product,Category,Region,Quantity,Sales,Revenue
+2025-01-01,MSI,Printer,Office Hardware,West,8,1440,1296.0
+2025-01-01,Apple,Keyboard,Accessories,West,9,495,495.0
+2025-01-01,Samsung,Keyboard,Accessories,East,6,330,313.5
+2025-01-02,ASUS,Keyboard,Accessories,North,12,660,660.0
+2025-01-02,MSI,Desktop PC,Computers,North,5,3500,3500.0
+2025-01-03,AMD,Keyboard,Accessories,West,6,330,297.0
+2025-01-03,Lenovo,Laptop,Computers,North,11,9350,8415.0
+2025-01-03,MSI,Printer,Office Hardware,North,2,360,360.0
+2025-01-04,Samsung,Laptop,Computers,South,4,3400,3230.0
+2025-01-04,ASUS,Processor,Components,North,3,1050,997.5
+2025-01-05,Apple,Printer,Office Hardware,South,13,2340,2340.0
+2025-01-05,Samsung,Laptop,Computers,North,7,5950,5950.0
+2025-01-05,Samsung,Printer,Office Hardware,East,9,1620,1620.0
+2025-01-06,Lenovo,Processor,Components,West,5,1750,1750.0
+2025-01-06,Acer,SSD,Storage,South,6,720,720.0
+2025-01-07,ASUS,Desktop PC,Computers,West,10,7000,7000.0
+2025-01-07,HP,Desktop PC,Computers,South,14,9800,9800.0
+2025-01-07,Samsung,Keyboard,Accessories,South,12,660,594.0
+2025-01-08,Acer,Monitor,Displays,South,12,3000,2850.0
+2025-01-08,HP,Keyboard,Accessories,East,2,110,93.5
+2025-01-09,ASUS,Tablet,Mobile Hardware,North,3,1200,1200.0
+2025-01-09,Dell,Laptop,Computers,South,3,2550,2295.0
+2025-01-09,AMD,Printer,Office Hardware,East,12,2160,1944.0
+2025-01-10,Acer,Monitor,Displays,South,12,3000,2850.0
+2025-01-10,Intel,Processor,Components,North,9,3150,3150.0
+2025-01-11,Dell,Tablet,Mobile Hardware,South,7,2800,2520.0
+2025-01-11,AMD,Processor,Components,East,8,2800,2800.0
+2025-01-11,Lenovo,Desktop PC,Computers,North,11,7700,7700.0
+2025-01-12,MSI,Desktop PC,Computers,East,10,7000,6650.0
+2025-01-12,Apple,Keyboard,Accessories,North,11,605,574.75
+2025-01-13,Intel,Laptop,Computers,North,9,7650,7650.0
+2025-01-13,Lenovo,Monitor,Displays,West,6,1500,1275.0
+2025-01-13,ASUS,Graphics Card,Components,West,4,2600,2470.0
+2025-01-14,Lenovo,Tablet,Mobile Hardware,West,12,4800,4560.0
+2025-01-14,MSI,Tablet,Mobile Hardware,North,1,400,340.0
+2025-01-15,ASUS,Keyboard,Accessories,South,8,440,440.0
+2025-01-15,Intel,Desktop PC,Computers,East,7,4900,4165.0
+2025-01-15,MSI,Keyboard,Accessories,East,2,110,104.5
+2025-01-16,HP,Printer,Office Hardware,East,8,1440,1440.0
+2025-01-16,Apple,Monitor,Displays,West,12,3000,2700.0
+2025-01-17,Intel,Laptop,Computers,North,5,4250,4037.5
+2025-01-17,HP,SSD,Storage,West,7,840,756.0
+2025-01-18,AMD,Mouse,Accessories,South,4,120,102.0
+2025-01-18,Intel,Mouse,Accessories,North,5,150,135.0
+2025-01-18,AMD,Keyboard,Accessories,East,8,440,418.0
+2025-01-19,ASUS,Printer,Office Hardware,West,1,180,162.0
+2025-01-19,HP,Monitor,Displays,West,1,250,237.5
+2025-01-20,Apple,Graphics Card,Components,South,4,2600,2600.0
+2025-01-20,MSI,Mouse,Accessories,South,3,90,81.0
+2025-01-20,Samsung,Monitor,Displays,West,13,3250,3250.0
+2025-01-21,Lenovo,Laptop,Computers,South,10,8500,7650.0
+2025-01-21,Dell,Processor,Components,East,12,4200,3780.0
+2025-01-22,Apple,Printer,Office Hardware,South,2,360,324.0
+2025-01-22,HP,Desktop PC,Computers,South,12,8400,7980.0
+2025-01-22,Samsung,Monitor,Displays,West,3,750,675.0
+2025-01-23,Apple,Laptop,Computers,West,11,9350,8882.5
+2025-01-23,HP,Graphics Card,Components,North,11,7150,6435.0
+2025-01-24,Acer,SSD,Storage,North,14,1680,1680.0
+2025-01-24,Acer,Desktop PC,Computers,West,11,7700,7700.0
+2025-01-24,AMD,SSD,Storage,South,1,120,120.0
+2025-01-25,Apple,Graphics Card,Components,South,1,650,617.5
+2025-01-25,Acer,Laptop,Computers,North,6,5100,4845.0
+2025-01-26,HP,Mouse,Accessories,North,5,150,135.0
+2025-01-26,AMD,SSD,Storage,North,8,960,960.0
+2025-01-26,HP,Desktop PC,Computers,East,2,1400,1330.0
+2025-01-27,AMD,Keyboard,Accessories,East,4,220,220.0
+2025-01-27,Apple,Tablet,Mobile Hardware,North,8,3200,3200.0
+2025-01-28,Samsung,Monitor,Displays,South,12,3000,2850.0
+2025-01-28,MSI,Mouse,Accessories,North,6,180,180.0
+2025-01-28,Intel,SSD,Storage,East,1,120,120.0
+2025-01-29,Samsung,Processor,Components,South,4,1400,1400.0
+2025-01-29,ASUS,Monitor,Displays,East,1,250,250.0
+2025-01-30,HP,Keyboard,Accessories,South,13,715,679.25
+2025-01-30,ASUS,Graphics Card,Components,East,2,1300,1300.0
+2025-01-30,Samsung,Tablet,Mobile Hardware,South,5,2000,1800.0
+2025-01-31,AMD,Laptop,Computers,South,14,11900,10710.0
+2025-01-31,Intel,Keyboard,Accessories,South,8,440,418.0
+2025-02-01,Intel,Keyboard,Accessories,South,8,440,374.0
+2025-02-01,Dell,Graphics Card,Components,West,11,7150,6792.5
+2025-02-01,Intel,Printer,Office Hardware,East,3,540,513.0
+2025-02-02,MSI,Graphics Card,Components,East,11,7150,6077.5
+2025-02-02,Intel,Printer,Office Hardware,West,13,2340,2340.0
+2025-02-03,Samsung,Printer,Office Hardware,South,4,720,612.0
+2025-02-03,Dell,Mouse,Accessories,South,10,300,300.0
+2025-02-04,Samsung,Mouse,Accessories,East,11,330,330.0
+2025-02-04,Samsung,Desktop PC,Computers,West,14,9800,9800.0
+2025-02-04,Lenovo,SSD,Storage,South,6,720,648.0
+2025-02-05,Dell,SSD,Storage,South,11,1320,1254.0
+2025-02-05,Samsung,Laptop,Computers,South,11,9350,8415.0
+2025-02-06,Lenovo,SSD,Storage,North,10,1200,1200.0
+2025-02-06,Lenovo,Mouse,Accessories,West,3,90,90.0
+2025-02-06,Dell,Desktop PC,Computers,South,2,1400,1400.0
+2025-02-07,ASUS,Desktop PC,Computers,North,6,4200,4200.0
+2025-02-07,AMD,Printer,Office Hardware,West,11,1980,1683.0
+2025-02-08,MSI,Graphics Card,Components,South,13,8450,8450.0
+2025-02-08,AMD,Laptop,Computers,East,5,4250,3825.0
+2025-02-08,Intel,Printer,Office Hardware,North,14,2520,2268.0
+2025-02-09,MSI,Graphics Card,Components,North,10,6500,6500.0
+2025-02-09,Intel,SSD,Storage,South,5,600,570.0
+2025-02-10,Samsung,Printer,Office Hardware,South,10,1800,1800.0
+2025-02-10,HP,Monitor,Displays,North,13,3250,3250.0
+2025-02-10,Dell,SSD,Storage,East,5,600,600.0
+2025-02-11,MSI,Graphics Card,Components,East,10,6500,6175.0
+2025-02-11,MSI,Laptop,Computers,West,12,10200,10200.0
+2025-02-12,Samsung,Graphics Card,Components,South,5,3250,3087.5
+2025-02-12,ASUS,Printer,Office Hardware,East,3,540,513.0
+2025-02-12,Lenovo,Printer,Office Hardware,West,7,1260,1260.0
+2025-02-13,Samsung,Keyboard,Accessories,East,6,330,313.5
+2025-02-13,Acer,Laptop,Computers,South,4,3400,3060.0
+2025-02-14,Lenovo,Processor,Components,West,2,700,700.0
+2025-02-14,Dell,SSD,Storage,West,12,1440,1440.0
+2025-02-14,Lenovo,Desktop PC,Computers,West,9,6300,5670.0
+2025-02-15,ASUS,Laptop,Computers,East,1,850,850.0
+2025-02-15,Lenovo,Desktop PC,Computers,South,13,9100,8645.0
+2025-02-16,Dell,Laptop,Computers,West,13,11050,11050.0
+2025-02-16,ASUS,Laptop,Computers,North,11,9350,9350.0
+2025-02-16,AMD,Graphics Card,Components,South,14,9100,9100.0
+2025-02-17,MSI,Laptop,Computers,North,4,3400,3400.0
+2025-02-17,MSI,Keyboard,Accessories,North,1,55,52.25
+2025-02-18,Intel,Processor,Components,West,13,4550,4550.0
+2025-02-18,AMD,Printer,Office Hardware,West,6,1080,972.0
+2025-02-18,AMD,Tablet,Mobile Hardware,East,4,1600,1440.0
+2025-02-19,Lenovo,Desktop PC,Computers,East,5,3500,3325.0
+2025-02-19,MSI,Printer,Office Hardware,East,5,900,810.0
+2025-02-20,Dell,Tablet,Mobile Hardware,South,9,3600,3600.0
+2025-02-20,Apple,Processor,Components,East,1,350,350.0
+2025-02-21,Apple,Processor,Components,North,13,4550,4095.0
+2025-02-21,ASUS,Desktop PC,Computers,East,2,1400,1400.0
+2025-02-21,MSI,Desktop PC,Computers,West,13,9100,8645.0
+2025-02-22,MSI,Processor,Components,East,6,2100,2100.0
+2025-02-22,Apple,Tablet,Mobile Hardware,South,5,2000,1900.0
+2025-02-23,MSI,Laptop,Computers,South,11,9350,8415.0
+2025-02-23,Lenovo,SSD,Storage,North,7,840,756.0
+2025-02-23,Acer,Monitor,Displays,South,3,750,675.0
+2025-02-24,HP,Printer,Office Hardware,East,3,540,486.0
+2025-02-24,AMD,Graphics Card,Components,West,10,6500,6175.0
+2025-02-25,Intel,Printer,Office Hardware,South,2,360,342.0
+2025-02-25,ASUS,Graphics Card,Components,North,13,8450,8450.0
+2025-02-25,Acer,Tablet,Mobile Hardware,East,3,1200,1200.0
+2025-02-26,Apple,Graphics Card,Components,North,10,6500,6175.0
+2025-02-26,AMD,Desktop PC,Computers,South,1,700,595.0
+2025-02-27,MSI,SSD,Storage,South,5,600,600.0
+2025-02-27,Intel,SSD,Storage,North,14,1680,1596.0
+2025-02-27,MSI,Desktop PC,Computers,East,12,8400,7980.0
+2025-02-28,Dell,Keyboard,Accessories,South,5,275,261.25
+2025-02-28,Dell,Tablet,Mobile Hardware,West,12,4800,4320.0
+2025-03-01,Intel,Keyboard,Accessories,South,11,605,605.0
+2025-03-01,Intel,Keyboard,Accessories,East,7,385,365.75
+2025-03-01,Apple,Printer,Office Hardware,South,4,720,648.0
+2025-03-02,Intel,Processor,Components,North,3,1050,997.5
+2025-03-02,Lenovo,Printer,Office Hardware,South,1,180,180.0
+2025-03-03,MSI,Processor,Components,South,12,4200,3990.0
+2025-03-03,Acer,Monitor,Displays,East,8,2000,1800.0
+2025-03-03,Samsung,Graphics Card,Components,North,13,8450,8450.0
+2025-03-04,Intel,Processor,Components,East,3,1050,945.0
+2025-03-04,ASUS,Desktop PC,Computers,South,13,9100,8190.0
+2025-03-05,Dell,Printer,Office Hardware,West,2,360,342.0
+2025-03-05,Lenovo,Tablet,Mobile Hardware,South,11,4400,3740.0
+2025-03-05,AMD,Graphics Card,Components,East,4,2600,2340.0
+2025-03-06,Samsung,Monitor,Displays,West,3,750,675.0
+2025-03-06,Acer,Processor,Components,East,13,4550,4095.0
+2025-03-07,Samsung,Monitor,Displays,East,1,250,250.0
+2025-03-07,Intel,Tablet,Mobile Hardware,North,3,1200,1200.0
+2025-03-08,Apple,Keyboard,Accessories,West,12,660,627.0
+2025-03-08,Dell,SSD,Storage,South,2,240,240.0
+2025-03-08,Dell,Tablet,Mobile Hardware,East,8,3200,3200.0
+2025-03-09,AMD,Mouse,Accessories,South,6,180,162.0
+2025-03-09,Apple,Tablet,Mobile Hardware,North,9,3600,3240.0
+2025-03-10,MSI,Monitor,Displays,North,8,2000,1900.0
+2025-03-10,HP,Desktop PC,Computers,West,10,7000,6300.0
+2025-03-10,Lenovo,Printer,Office Hardware,North,3,540,486.0
+2025-03-11,Dell,Desktop PC,Computers,North,5,3500,3500.0
+2025-03-11,ASUS,Monitor,Displays,South,7,1750,1750.0
+2025-03-12,Dell,Printer,Office Hardware,North,5,900,855.0
+2025-03-12,Samsung,Mouse,Accessories,North,8,240,216.0
+2025-03-12,Dell,SSD,Storage,East,12,1440,1440.0
+2025-03-13,Dell,Graphics Card,Components,North,5,3250,3087.5
+2025-03-13,HP,Monitor,Displays,East,1,250,250.0
+2025-03-14,HP,Processor,Components,North,5,1750,1575.0
+2025-03-14,Acer,Monitor,Displays,North,4,1000,900.0
+2025-03-14,MSI,Monitor,Displays,West,6,1500,1350.0
+2025-03-15,ASUS,Printer,Office Hardware,West,3,540,459.0
+2025-03-15,Dell,Laptop,Computers,East,11,9350,8415.0
+2025-03-16,Dell,Tablet,Mobile Hardware,North,5,2000,1700.0
+2025-03-16,Lenovo,Laptop,Computers,South,2,1700,1445.0
+2025-03-16,HP,Mouse,Accessories,West,11,330,297.0
+2025-03-17,ASUS,Processor,Components,South,6,2100,1995.0
+2025-03-17,AMD,SSD,Storage,West,13,1560,1560.0
+2025-03-18,Acer,Keyboard,Accessories,West,12,660,627.0
+2025-03-18,MSI,Mouse,Accessories,North,6,180,171.0
+2025-03-18,Apple,Keyboard,Accessories,West,5,275,275.0
+2025-03-19,MSI,Keyboard,Accessories,South,6,330,330.0
+2025-03-19,Samsung,SSD,Storage,West,11,1320,1122.0
+2025-03-20,Dell,Desktop PC,Computers,East,7,4900,4410.0
+2025-03-20,Acer,Laptop,Computers,North,12,10200,9180.0
+2025-03-20,Samsung,Monitor,Displays,North,5,1250,1250.0
+2025-03-21,ASUS,Graphics Card,Components,East,1,650,650.0
+2025-03-21,Apple,Keyboard,Accessories,East,8,440,440.0
+2025-03-22,HP,Processor,Components,East,4,1400,1400.0
+2025-03-22,Acer,Mouse,Accessories,West,9,270,270.0
+2025-03-22,Acer,Desktop PC,Computers,North,14,9800,9800.0
+2025-03-23,Dell,Keyboard,Accessories,East,10,550,467.5
+2025-03-23,Intel,Desktop PC,Computers,West,12,8400,7560.0
+2025-03-24,Acer,Desktop PC,Computers,East,6,4200,4200.0
+2025-03-24,Lenovo,Keyboard,Accessories,South,1,55,55.0
+2025-03-25,Apple,Printer,Office Hardware,South,3,540,513.0
+2025-03-25,Apple,Tablet,Mobile Hardware,North,3,1200,1200.0
+2025-03-25,Lenovo,Processor,Components,West,10,3500,2975.0
+2025-03-26,AMD,Monitor,Displays,South,12,3000,3000.0
+2025-03-26,Lenovo,Monitor,Displays,South,12,3000,3000.0
+2025-03-27,Lenovo,Processor,Components,West,4,1400,1400.0
+2025-03-27,Apple,Printer,Office Hardware,East,6,1080,1080.0
+2025-03-27,MSI,Monitor,Displays,West,7,1750,1662.5
+2025-03-28,Apple,Desktop PC,Computers,East,10,7000,6300.0
+2025-03-28,Intel,SSD,Storage,South,4,480,456.0
+2025-03-29,Dell,Mouse,Accessories,South,6,180,180.0
+2025-03-29,Samsung,Laptop,Computers,South,11,9350,8882.5
+2025-03-29,MSI,Monitor,Displays,North,1,250,237.5
+2025-03-30,HP,Processor,Components,North,14,4900,4410.0
+2025-03-30,Samsung,SSD,Storage,North,8,960,960.0
+2025-03-31,Dell,Keyboard,Accessories,West,7,385,385.0
+2025-03-31,Intel,Tablet,Mobile Hardware,South,11,4400,4180.0
+2025-03-31,Intel,Processor,Components,South,11,3850,3657.5
+2025-04-01,HP,Desktop PC,Computers,West,9,6300,5985.0
+2025-04-01,MSI,Tablet,Mobile Hardware,North,3,1200,1200.0
+2025-04-02,AMD,Mouse,Accessories,West,2,60,57.0
+2025-04-02,Lenovo,Mouse,Accessories,North,1,30,27.0
+2025-04-02,MSI,Printer,Office Hardware,South,3,540,513.0
+2025-04-03,AMD,Graphics Card,Components,East,5,3250,2762.5
+2025-04-03,Intel,Printer,Office Hardware,North,14,2520,2394.0
+2025-04-04,Apple,SSD,Storage,South,11,1320,1122.0
+2025-04-04,Dell,Tablet,Mobile Hardware,South,2,800,720.0
+2025-04-04,HP,Graphics Card,Components,East,12,7800,7800.0
+2025-04-05,Dell,Keyboard,Accessories,South,3,165,148.5
+2025-04-05,ASUS,Desktop PC,Computers,South,4,2800,2800.0
+2025-04-06,ASUS,Tablet,Mobile Hardware,North,7,2800,2380.0
+2025-04-06,MSI,Printer,Office Hardware,North,13,2340,2223.0
+2025-04-06,Intel,Laptop,Computers,East,3,2550,2550.0
+2025-04-07,Intel,Graphics Card,Components,East,9,5850,5557.5
+2025-04-07,Lenovo,Graphics Card,Components,South,8,5200,4420.0
+2025-04-08,Lenovo,Desktop PC,Computers,North,4,2800,2800.0
+2025-04-08,Lenovo,Monitor,Displays,East,13,3250,3087.5
+2025-04-08,Apple,Mouse,Accessories,East,1,30,27.0
+2025-04-09,Samsung,Mouse,Accessories,West,1,30,27.0
+2025-04-09,Acer,Laptop,Computers,East,1,850,850.0
+2025-04-10,Samsung,SSD,Storage,South,1,120,120.0
+2025-04-10,Dell,SSD,Storage,North,8,960,960.0
+2025-04-11,Samsung,Keyboard,Accessories,East,3,165,156.75
+2025-04-11,Apple,Tablet,Mobile Hardware,West,6,2400,2280.0
+2025-04-11,Dell,Processor,Components,North,3,1050,892.5
+2025-04-12,Samsung,Monitor,Displays,East,11,2750,2750.0
+2025-04-12,Apple,Printer,Office Hardware,West,5,900,855.0
+2025-04-13,Acer,Processor,Components,East,13,4550,4550.0
+2025-04-13,Samsung,Processor,Components,North,14,4900,4900.0
+2025-04-13,Apple,Graphics Card,Components,North,13,8450,8027.5
+2025-04-14,Lenovo,Laptop,Computers,North,7,5950,5652.5
+2025-04-14,Intel,Mouse,Accessories,South,2,60,57.0
+2025-04-15,Lenovo,Keyboard,Accessories,East,6,330,280.5
+2025-04-15,Intel,SSD,Storage,South,13,1560,1482.0
+2025-04-15,HP,Laptop,Computers,North,6,5100,4335.0
+2025-04-16,HP,Graphics Card,Components,West,11,7150,6435.0
+2025-04-16,HP,Printer,Office Hardware,East,3,540,513.0
+2025-04-17,Acer,Keyboard,Accessories,South,6,330,297.0
+2025-04-17,Lenovo,Graphics Card,Components,East,10,6500,6175.0
+2025-04-17,Intel,Mouse,Accessories,West,10,300,300.0
+2025-04-18,Apple,Mouse,Accessories,South,14,420,378.0
+2025-04-18,Dell,Mouse,Accessories,North,5,150,150.0
+2025-04-19,Apple,Laptop,Computers,South,12,10200,9690.0
+2025-04-19,Dell,Laptop,Computers,East,2,1700,1530.0
+2025-04-19,ASUS,SSD,Storage,East,9,1080,1080.0
+2025-04-20,Apple,SSD,Storage,East,8,960,960.0
+2025-04-20,Samsung,Printer,Office Hardware,East,3,540,459.0
+2025-04-21,Samsung,Keyboard,Accessories,North,8,440,418.0
+2025-04-21,MSI,Desktop PC,Computers,South,14,9800,9800.0
+2025-04-21,Lenovo,Desktop PC,Computers,North,9,6300,5985.0
+2025-04-22,Dell,Graphics Card,Components,North,14,9100,8645.0
+2025-04-22,Dell,Mouse,Accessories,North,3,90,85.5
+2025-04-23,Lenovo,Keyboard,Accessories,East,3,165,140.25
+2025-04-23,Acer,Processor,Components,East,2,700,665.0
+2025-04-23,MSI,Laptop,Computers,East,8,6800,6800.0
+2025-04-24,Acer,Tablet,Mobile Hardware,South,10,4000,3600.0
+2025-04-24,Acer,Monitor,Displays,West,1,250,225.0
+2025-04-25,Acer,Printer,Office Hardware,East,8,1440,1440.0
+2025-04-25,Lenovo,Mouse,Accessories,South,7,210,210.0
+2025-04-26,Acer,Mouse,Accessories,East,14,420,420.0
+2025-04-26,Samsung,Mouse,Accessories,East,7,210,199.5
+2025-04-26,HP,Laptop,Computers,North,3,2550,2422.5
+2025-04-27,ASUS,Laptop,Computers,North,1,850,807.5
+2025-04-27,Dell,Monitor,Displays,North,4,1000,850.0
+2025-04-28,Dell,Processor,Components,South,9,3150,2835.0
+2025-04-28,ASUS,Keyboard,Accessories,West,5,275,275.0
+2025-04-28,Lenovo,Mouse,Accessories,West,1,30,30.0
+2025-04-29,Apple,Desktop PC,Computers,South,5,3500,3500.0
+2025-04-29,Lenovo,SSD,Storage,East,13,1560,1560.0
+2025-04-30,Dell,Desktop PC,Computers,South,8,5600,5320.0
+2025-04-30,Dell,Graphics Card,Components,East,8,5200,4680.0
+2025-04-30,ASUS,Desktop PC,Computers,South,5,3500,3500.0
+2025-05-01,Acer,Graphics Card,Components,South,12,7800,7410.0
+2025-05-01,Lenovo,Tablet,Mobile Hardware,South,9,3600,3240.0
+2025-05-02,Intel,SSD,Storage,West,1,120,120.0
+2025-05-02,ASUS,Desktop PC,Computers,North,4,2800,2800.0
+2025-05-02,Samsung,Tablet,Mobile Hardware,South,3,1200,1140.0
+2025-05-03,Dell,Printer,Office Hardware,West,2,360,360.0
+2025-05-03,ASUS,Keyboard,Accessories,North,8,440,374.0
+2025-05-04,Lenovo,Tablet,Mobile Hardware,North,7,2800,2800.0
+2025-05-04,Dell,Keyboard,Accessories,South,9,495,495.0
+2025-05-04,Apple,Desktop PC,Computers,East,2,1400,1330.0
+2025-05-05,ASUS,Processor,Components,East,14,4900,4165.0
+2025-05-05,MSI,Tablet,Mobile Hardware,East,14,5600,5600.0
+2025-05-06,Dell,SSD,Storage,South,4,480,480.0
+2025-05-06,Lenovo,Desktop PC,Computers,East,14,9800,9800.0
+2025-05-06,HP,Mouse,Accessories,West,6,180,180.0
+2025-05-07,Intel,Laptop,Computers,West,11,9350,9350.0
+2025-05-07,AMD,Tablet,Mobile Hardware,West,3,1200,1140.0
+2025-05-08,Acer,SSD,Storage,West,8,960,960.0
+2025-05-08,AMD,Printer,Office Hardware,North,3,540,540.0
+2025-05-08,Lenovo,Mouse,Accessories,West,14,420,378.0
+2025-05-09,Samsung,Printer,Office Hardware,East,12,2160,2160.0
+2025-05-09,Samsung,Desktop PC,Computers,South,13,9100,9100.0
+2025-05-10,HP,Laptop,Computers,East,13,11050,11050.0
+2025-05-10,Acer,Tablet,Mobile Hardware,West,2,800,680.0
+2025-05-10,MSI,Tablet,Mobile Hardware,North,13,5200,5200.0
+2025-05-11,HP,Processor,Components,West,13,4550,4095.0
+2025-05-11,AMD,Processor,Components,South,3,1050,945.0
+2025-05-12,HP,Desktop PC,Computers,East,11,7700,7700.0
+2025-05-12,AMD,Desktop PC,Computers,South,6,4200,3570.0
+2025-05-13,Dell,Laptop,Computers,South,2,1700,1700.0
+2025-05-13,Samsung,Processor,Components,South,8,2800,2800.0
+2025-05-13,Dell,SSD,Storage,East,1,120,108.0
+2025-05-14,Intel,SSD,Storage,West,7,840,756.0
+2025-05-14,Acer,Laptop,Computers,South,2,1700,1615.0
+2025-05-15,MSI,SSD,Storage,East,10,1200,1200.0
+2025-05-15,AMD,Graphics Card,Components,North,12,7800,7410.0
+2025-05-15,MSI,Keyboard,Accessories,East,6,330,297.0
+2025-05-16,AMD,Laptop,Computers,North,12,10200,10200.0
+2025-05-16,Lenovo,Laptop,Computers,East,2,1700,1700.0
+2025-05-17,HP,Monitor,Displays,West,2,500,500.0
+2025-05-17,Intel,Mouse,Accessories,South,10,300,300.0
+2025-05-17,Samsung,Mouse,Accessories,West,13,390,351.0
+2025-05-18,AMD,Graphics Card,Components,East,8,5200,5200.0
+2025-05-18,MSI,Processor,Components,South,12,4200,3570.0
+2025-05-19,Intel,Desktop PC,Computers,North,2,1400,1400.0
+2025-05-19,Apple,Desktop PC,Computers,East,7,4900,4410.0
+2025-05-19,Apple,Printer,Office Hardware,South,3,540,540.0
+2025-05-20,Dell,Graphics Card,Components,North,8,5200,5200.0
+2025-05-20,Samsung,Laptop,Computers,North,7,5950,5950.0
+2025-05-21,Lenovo,Graphics Card,Components,West,14,9100,9100.0
+2025-05-21,MSI,Graphics Card,Components,East,8,5200,4940.0
+2025-05-21,HP,Graphics Card,Components,North,14,9100,7735.0
+2025-05-22,HP,Mouse,Accessories,South,7,210,199.5
+2025-05-22,MSI,Graphics Card,Components,North,11,7150,7150.0
+2025-05-23,Acer,Keyboard,Accessories,North,6,330,330.0
+2025-05-23,Lenovo,Desktop PC,Computers,West,13,9100,9100.0
+2025-05-23,Intel,Printer,Office Hardware,West,7,1260,1197.0
+2025-05-24,AMD,Keyboard,Accessories,South,5,275,247.5
+2025-05-24,Acer,Printer,Office Hardware,West,7,1260,1071.0
+2025-05-25,AMD,Monitor,Displays,North,1,250,250.0
+2025-05-25,AMD,Printer,Office Hardware,North,1,180,171.0
+2025-05-25,Acer,Desktop PC,Computers,West,9,6300,5985.0
+2025-05-26,Dell,Desktop PC,Computers,North,14,9800,9310.0
+2025-05-26,Apple,Graphics Card,Components,North,5,3250,3087.5
+2025-05-27,AMD,Tablet,Mobile Hardware,South,13,5200,4940.0
+2025-05-27,Acer,Monitor,Displays,West,5,1250,1187.5
+2025-05-27,Acer,Laptop,Computers,North,3,2550,2550.0
+2025-05-28,ASUS,SSD,Storage,West,5,600,540.0
+2025-05-28,Dell,Printer,Office Hardware,South,3,540,540.0
+2025-05-29,Samsung,Tablet,Mobile Hardware,West,9,3600,3420.0
+2025-05-29,ASUS,Graphics Card,Components,North,9,5850,5850.0
+2025-05-30,ASUS,Mouse,Accessories,West,6,180,171.0
+2025-05-30,MSI,Laptop,Computers,North,1,850,722.5
+2025-05-30,Apple,Processor,Components,North,7,2450,2205.0
+2025-05-31,Acer,Tablet,Mobile Hardware,North,7,2800,2520.0
+2025-05-31,Apple,Mouse,Accessories,South,14,420,399.0
+2025-06-01,Lenovo,Monitor,Displays,West,10,2500,2250.0
+2025-06-01,MSI,Graphics Card,Components,South,10,6500,6175.0
+2025-06-01,Samsung,Laptop,Computers,West,4,3400,3060.0
+2025-06-02,Apple,Laptop,Computers,South,8,6800,6800.0
+2025-06-02,HP,Laptop,Computers,East,6,5100,4335.0
+2025-06-03,AMD,Monitor,Displays,North,4,1000,850.0
+2025-06-03,Lenovo,Printer,Office Hardware,North,4,720,648.0
+2025-06-03,Dell,Processor,Components,South,2,700,700.0
+2025-06-04,Samsung,Monitor,Displays,East,14,3500,3500.0
+2025-06-04,Lenovo,SSD,Storage,North,2,240,216.0
+2025-06-05,AMD,Processor,Components,West,12,4200,4200.0
+2025-06-05,MSI,Desktop PC,Computers,South,14,9800,8820.0
+2025-06-05,AMD,Graphics Card,Components,North,4,2600,2470.0
+2025-06-06,ASUS,Monitor,Displays,North,5,1250,1250.0
+2025-06-06,AMD,Mouse,Accessories,South,8,240,204.0
+2025-06-07,ASUS,Processor,Components,South,6,2100,1995.0
+2025-06-07,MSI,SSD,Storage,West,14,1680,1596.0
+2025-06-07,Intel,Desktop PC,Computers,West,4,2800,2660.0
+2025-06-08,ASUS,Printer,Office Hardware,North,13,2340,2340.0
+2025-06-08,Dell,Mouse,Accessories,North,11,330,297.0
+2025-06-09,AMD,Processor,Components,South,7,2450,2450.0
+2025-06-09,AMD,Graphics Card,Components,North,8,5200,4420.0
+2025-06-09,Dell,Mouse,Accessories,North,2,60,54.0
+2025-06-10,HP,Desktop PC,Computers,South,12,8400,8400.0
+2025-06-10,Acer,Mouse,Accessories,North,7,210,189.0
+2025-06-11,Intel,Keyboard,Accessories,North,14,770,731.5
+2025-06-11,Samsung,Tablet,Mobile Hardware,East,2,800,800.0
+2025-06-11,ASUS,Printer,Office Hardware,West,2,360,306.0
+2025-06-12,Dell,Desktop PC,Computers,South,8,5600,5600.0
+2025-06-12,MSI,Mouse,Accessories,East,2,60,60.0
+2025-06-13,ASUS,Tablet,Mobile Hardware,West,11,4400,4180.0
+2025-06-13,Acer,Tablet,Mobile Hardware,West,9,3600,3420.0
+2025-06-13,MSI,Mouse,Accessories,West,12,360,342.0
+2025-06-14,Lenovo,Graphics Card,Components,East,1,650,585.0
+2025-06-14,AMD,Keyboard,Accessories,East,9,495,470.25
+2025-06-15,Lenovo,Monitor,Displays,West,1,250,237.5
+2025-06-15,ASUS,Keyboard,Accessories,North,10,550,550.0
+2025-06-16,Acer,Mouse,Accessories,North,13,390,390.0
+2025-06-16,Intel,Printer,Office Hardware,East,10,1800,1800.0
+2025-06-16,ASUS,Monitor,Displays,East,2,500,500.0
+2025-06-17,Dell,Desktop PC,Computers,East,6,4200,3990.0
+2025-06-17,Apple,Keyboard,Accessories,West,6,330,330.0
+2025-06-18,ASUS,Mouse,Accessories,North,1,30,30.0
+2025-06-18,AMD,Keyboard,Accessories,East,7,385,385.0
+2025-06-18,AMD,Monitor,Displays,East,8,2000,1700.0
+2025-06-19,ASUS,SSD,Storage,South,2,240,204.0
+2025-06-19,MSI,Processor,Components,West,8,2800,2660.0
+2025-06-20,Apple,Keyboard,Accessories,South,9,495,420.75
+2025-06-20,Dell,Desktop PC,Computers,North,6,4200,3780.0
+2025-06-20,ASUS,Desktop PC,Computers,South,5,3500,3325.0
+2025-06-21,MSI,Laptop,Computers,South,12,10200,10200.0
+2025-06-21,AMD,Keyboard,Accessories,South,9,495,445.5
+2025-06-22,AMD,Processor,Components,West,13,4550,4095.0
+2025-06-22,Acer,Graphics Card,Components,North,12,7800,7410.0
+2025-06-22,ASUS,Tablet,Mobile Hardware,South,11,4400,3960.0
+2025-06-23,Apple,Processor,Components,West,9,3150,2992.5
+2025-06-23,HP,Tablet,Mobile Hardware,North,1,400,360.0
+2025-06-24,Apple,Tablet,Mobile Hardware,East,11,4400,3740.0
+2025-06-24,AMD,SSD,Storage,South,3,360,360.0
+2025-06-24,AMD,Laptop,Computers,North,9,7650,6885.0
+2025-06-25,Lenovo,Processor,Components,South,11,3850,3657.5
+2025-06-25,AMD,Processor,Components,East,2,700,665.0
+2025-06-26,Dell,SSD,Storage,North,12,1440,1296.0
+2025-06-26,Samsung,Keyboard,Accessories,West,4,220,220.0
+2025-06-26,ASUS,Keyboard,Accessories,North,4,220,209.0
+2025-06-27,Apple,Keyboard,Accessories,West,2,110,110.0
+2025-06-27,Samsung,Printer,Office Hardware,North,3,540,513.0
+2025-06-28,MSI,Tablet,Mobile Hardware,West,13,5200,4940.0
+2025-06-28,HP,Printer,Office Hardware,East,3,540,486.0
+2025-06-28,Dell,Laptop,Computers,East,1,850,850.0
+2025-06-29,Apple,SSD,Storage,East,6,720,684.0
+2025-06-29,Samsung,Processor,Components,North,8,2800,2800.0
+2025-06-30,HP,Tablet,Mobile Hardware,East,12,4800,4320.0
+2025-06-30,Lenovo,Printer,Office Hardware,South,3,540,459.0
+2025-07-01,Dell,Printer,Office Hardware,East,5,900,765.0
+2025-07-01,Dell,Mouse,Accessories,West,1,30,27.0
+2025-07-01,Lenovo,Printer,Office Hardware,West,10,1800,1620.0
+2025-07-02,ASUS,Graphics Card,Components,West,7,4550,4550.0
+2025-07-02,Lenovo,Processor,Components,North,10,3500,3500.0
+2025-07-03,Dell,Graphics Card,Components,South,13,8450,8027.5
+2025-07-03,Dell,Processor,Components,East,1,350,315.0
+2025-07-03,Samsung,SSD,Storage,South,12,1440,1224.0
+2025-07-04,AMD,Processor,Components,South,11,3850,3850.0
+2025-07-04,HP,Graphics Card,Components,West,9,5850,4972.5
+2025-07-05,Lenovo,Processor,Components,West,8,2800,2660.0
+2025-07-05,HP,SSD,Storage,West,7,840,798.0
+2025-07-05,Lenovo,SSD,Storage,North,10,1200,1200.0
+2025-07-06,MSI,Laptop,Computers,South,7,5950,5950.0
+2025-07-06,Dell,Processor,Components,South,5,1750,1662.5
+2025-07-07,AMD,Mouse,Accessories,North,5,150,142.5
+2025-07-07,Samsung,Keyboard,Accessories,North,11,605,605.0
+2025-07-07,AMD,Desktop PC,Computers,North,13,9100,8645.0
+2025-07-08,AMD,SSD,Storage,South,5,600,540.0
+2025-07-08,AMD,Monitor,Displays,South,1,250,225.0
+2025-07-09,HP,Keyboard,Accessories,West,8,440,374.0
+2025-07-09,Lenovo,Tablet,Mobile Hardware,West,12,4800,4800.0
+2025-07-09,Intel,Processor,Components,South,11,3850,3850.0
+2025-07-10,MSI,Graphics Card,Components,West,1,650,585.0
+2025-07-10,Apple,Desktop PC,Computers,North,4,2800,2800.0
+2025-07-11,AMD,Monitor,Displays,East,9,2250,2250.0
+2025-07-11,ASUS,Keyboard,Accessories,West,14,770,770.0
+2025-07-11,HP,Processor,Components,South,9,3150,3150.0
+2025-07-12,Samsung,Laptop,Computers,West,5,4250,4250.0
+2025-07-12,Apple,Tablet,Mobile Hardware,West,4,1600,1600.0
+2025-07-13,Intel,Desktop PC,Computers,West,3,2100,2100.0
+2025-07-13,ASUS,Mouse,Accessories,East,3,90,90.0
+2025-07-13,Intel,Laptop,Computers,North,12,10200,9690.0
+2025-07-14,Apple,Monitor,Displays,South,5,1250,1187.5
+2025-07-14,AMD,Desktop PC,Computers,East,10,7000,6650.0
+2025-07-15,ASUS,Laptop,Computers,South,1,850,850.0
+2025-07-15,Intel,Tablet,Mobile Hardware,South,5,2000,2000.0
+2025-07-15,Samsung,Mouse,Accessories,South,6,180,171.0
+2025-07-16,Lenovo,Laptop,Computers,East,7,5950,5652.5
+2025-07-16,Dell,Printer,Office Hardware,North,12,2160,2052.0
+2025-07-17,Lenovo,Mouse,Accessories,South,9,270,270.0
+2025-07-17,Apple,Monitor,Displays,North,3,750,637.5
+2025-07-18,HP,Tablet,Mobile Hardware,North,2,800,800.0
+2025-07-18,Dell,Processor,Components,West,14,4900,4655.0
+2025-07-18,MSI,Graphics Card,Components,East,3,1950,1852.5
+2025-07-19,Samsung,Graphics Card,Components,East,12,7800,7410.0
+2025-07-19,MSI,Graphics Card,Components,West,9,5850,5850.0
+2025-07-20,ASUS,Desktop PC,Computers,West,12,8400,8400.0
+2025-07-20,Dell,Monitor,Displays,North,7,1750,1575.0
+2025-07-20,MSI,Tablet,Mobile Hardware,South,9,3600,3600.0
+2025-07-21,MSI,Mouse,Accessories,East,13,390,390.0
+2025-07-21,Intel,Desktop PC,Computers,South,2,1400,1400.0
+2025-07-22,Lenovo,Monitor,Displays,South,5,1250,1125.0
+2025-07-22,Intel,Processor,Components,West,13,4550,4550.0
+2025-07-22,Dell,Printer,Office Hardware,South,4,720,612.0
+2025-07-23,Dell,Tablet,Mobile Hardware,North,2,800,760.0
+2025-07-23,Apple,Graphics Card,Components,West,9,5850,4972.5
+2025-07-24,Intel,Laptop,Computers,South,9,7650,6502.5
+2025-07-24,Acer,Tablet,Mobile Hardware,West,6,2400,2280.0
+2025-07-24,Lenovo,SSD,Storage,North,11,1320,1320.0
+2025-07-25,Dell,Monitor,Displays,North,6,1500,1500.0
+2025-07-25,Apple,Keyboard,Accessories,South,8,440,440.0
+2025-07-26,Intel,Processor,Components,West,6,2100,1890.0
+2025-07-26,Lenovo,Printer,Office Hardware,South,1,180,180.0
+2025-07-26,Intel,Processor,Components,South,4,1400,1400.0
+2025-07-27,MSI,Tablet,Mobile Hardware,West,13,5200,5200.0
+2025-07-27,Apple,Keyboard,Accessories,South,7,385,327.25
+2025-07-28,Lenovo,SSD,Storage,North,13,1560,1560.0
+2025-07-28,AMD,Mouse,Accessories,West,13,390,390.0
+2025-07-28,ASUS,Laptop,Computers,West,2,1700,1700.0
+2025-07-29,ASUS,Keyboard,Accessories,West,9,495,420.75
+2025-07-29,Lenovo,Monitor,Displays,West,8,2000,1900.0
+2025-07-30,Intel,Graphics Card,Components,South,8,5200,5200.0
+2025-07-30,Apple,SSD,Storage,South,7,840,840.0
+2025-07-30,ASUS,Laptop,Computers,North,4,3400,3400.0
+2025-07-31,Apple,Printer,Office Hardware,East,2,360,360.0
+2025-07-31,ASUS,Graphics Card,Components,East,3,1950,1657.5
+2025-08-01,MSI,Tablet,Mobile Hardware,North,12,4800,4320.0
+2025-08-01,Intel,Keyboard,Accessories,East,6,330,313.5
+2025-08-01,MSI,Laptop,Computers,North,12,10200,9180.0
+2025-08-02,ASUS,Desktop PC,Computers,South,12,8400,8400.0
+2025-08-02,AMD,Mouse,Accessories,West,5,150,135.0
+2025-08-03,AMD,Mouse,Accessories,West,12,360,324.0
+2025-08-03,MSI,SSD,Storage,South,8,960,960.0
+2025-08-04,AMD,Printer,Office Hardware,West,6,1080,972.0
+2025-08-04,ASUS,SSD,Storage,West,6,720,720.0
+2025-08-04,Lenovo,Desktop PC,Computers,East,1,700,700.0
+2025-08-05,MSI,Monitor,Displays,South,4,1000,1000.0
+2025-08-05,HP,Printer,Office Hardware,East,5,900,900.0
+2025-08-06,Intel,Processor,Components,East,12,4200,3780.0
+2025-08-06,AMD,Monitor,Displays,West,11,2750,2337.5
+2025-08-06,AMD,Printer,Office Hardware,West,3,540,513.0
+2025-08-07,Dell,Printer,Office Hardware,South,13,2340,2106.0
+2025-08-07,Acer,Desktop PC,Computers,West,9,6300,5670.0
+2025-08-08,MSI,Tablet,Mobile Hardware,West,1,400,400.0
+2025-08-08,Samsung,Desktop PC,Computers,South,6,4200,3990.0
+2025-08-08,AMD,Printer,Office Hardware,West,6,1080,1080.0
+2025-08-09,Intel,Laptop,Computers,East,10,8500,8075.0
+2025-08-09,HP,Monitor,Displays,South,5,1250,1062.5
+2025-08-10,AMD,Desktop PC,Computers,West,12,8400,8400.0
+2025-08-10,HP,Tablet,Mobile Hardware,North,5,2000,1800.0
+2025-08-10,ASUS,Keyboard,Accessories,South,10,550,522.5
+2025-08-11,ASUS,SSD,Storage,South,14,1680,1596.0
+2025-08-11,Acer,Printer,Office Hardware,North,13,2340,2340.0
+2025-08-12,Lenovo,Processor,Components,West,5,1750,1750.0
+2025-08-12,Samsung,Keyboard,Accessories,West,6,330,330.0
+2025-08-12,Dell,Mouse,Accessories,South,8,240,240.0
+2025-08-13,Acer,Graphics Card,Components,South,2,1300,1300.0
+2025-08-13,Apple,Tablet,Mobile Hardware,West,6,2400,2280.0
+2025-08-14,Dell,Processor,Components,West,1,350,350.0
+2025-08-14,MSI,Graphics Card,Components,East,4,2600,2340.0
+2025-08-14,Intel,Tablet,Mobile Hardware,South,14,5600,5320.0
+2025-08-15,Apple,Laptop,Computers,South,10,8500,8075.0
+2025-08-15,Apple,SSD,Storage,North,3,360,360.0
+2025-08-16,Acer,Keyboard,Accessories,East,9,495,470.25
+2025-08-16,Lenovo,Monitor,Displays,West,3,750,637.5
+2025-08-16,Acer,Tablet,Mobile Hardware,East,6,2400,2400.0
+2025-08-17,MSI,Monitor,Displays,West,1,250,250.0
+2025-08-17,AMD,SSD,Storage,West,12,1440,1296.0
+2025-08-18,AMD,Printer,Office Hardware,East,6,1080,1080.0
+2025-08-18,Lenovo,Mouse,Accessories,South,4,120,120.0
+2025-08-19,MSI,Keyboard,Accessories,West,8,440,440.0
+2025-08-19,Lenovo,SSD,Storage,East,13,1560,1560.0
+2025-08-19,HP,SSD,Storage,North,11,1320,1254.0
+2025-08-20,AMD,Laptop,Computers,East,9,7650,7650.0
+2025-08-20,Apple,Graphics Card,Components,North,4,2600,2340.0
+2025-08-21,Samsung,Mouse,Accessories,West,10,300,270.0
+2025-08-21,Intel,Keyboard,Accessories,East,12,660,627.0
+2025-08-21,MSI,Printer,Office Hardware,East,10,1800,1710.0
+2025-08-22,Dell,Printer,Office Hardware,North,6,1080,972.0
+2025-08-22,Lenovo,Desktop PC,Computers,East,1,700,700.0
+2025-08-23,Intel,SSD,Storage,East,4,480,432.0
+2025-08-23,Dell,Tablet,Mobile Hardware,West,7,2800,2520.0
+2025-08-23,Intel,Laptop,Computers,East,12,10200,9180.0
+2025-08-24,Samsung,Mouse,Accessories,South,1,30,28.5
+2025-08-24,Dell,Printer,Office Hardware,North,8,1440,1440.0
+2025-08-25,Acer,Keyboard,Accessories,East,12,660,660.0
+2025-08-25,ASUS,Desktop PC,Computers,North,10,7000,6300.0
+2025-08-25,Acer,Keyboard,Accessories,North,12,660,660.0
+2025-08-26,AMD,Laptop,Computers,North,11,9350,8415.0
+2025-08-26,ASUS,Tablet,Mobile Hardware,East,6,2400,2400.0
+2025-08-27,Acer,Desktop PC,Computers,East,5,3500,3500.0
+2025-08-27,ASUS,Desktop PC,Computers,North,10,7000,7000.0
+2025-08-27,ASUS,Graphics Card,Components,South,11,7150,7150.0
+2025-08-28,Apple,Mouse,Accessories,North,14,420,399.0
+2025-08-28,Lenovo,Desktop PC,Computers,South,9,6300,6300.0
+2025-08-29,Lenovo,Graphics Card,Components,North,2,1300,1105.0
+2025-08-29,Apple,Graphics Card,Components,West,5,3250,3087.5
+2025-08-29,Intel,Laptop,Computers,North,6,5100,5100.0
+2025-08-30,HP,Monitor,Displays,North,7,1750,1662.5
+2025-08-30,Intel,Keyboard,Accessories,East,5,275,247.5
+2025-08-31,Dell,Tablet,Mobile Hardware,South,9,3600,3240.0
+2025-08-31,Dell,Processor,Components,West,1,350,350.0
+2025-08-31,ASUS,Keyboard,Accessories,South,7,385,346.5
+2025-09-01,Acer,Desktop PC,Computers,West,10,7000,6300.0
+2025-09-01,Acer,Tablet,Mobile Hardware,North,7,2800,2800.0
+2025-09-02,Lenovo,Printer,Office Hardware,East,4,720,720.0
+2025-09-02,MSI,Monitor,Displays,East,9,2250,2137.5
+2025-09-02,Intel,Printer,Office Hardware,South,14,2520,2520.0
+2025-09-03,AMD,Printer,Office Hardware,East,12,2160,1944.0
+2025-09-03,Samsung,Mouse,Accessories,South,11,330,330.0
+2025-09-04,Acer,Keyboard,Accessories,South,5,275,233.75
+2025-09-04,Samsung,Processor,Components,West,4,1400,1330.0
+2025-09-05,ASUS,Laptop,Computers,South,13,11050,11050.0
+2025-09-05,Samsung,Processor,Components,West,7,2450,2450.0
+2025-09-05,AMD,Printer,Office Hardware,East,4,720,684.0
+2025-09-06,Apple,Desktop PC,Computers,South,3,2100,1890.0
+2025-09-06,AMD,Monitor,Displays,South,9,2250,2025.0
+2025-09-07,Samsung,SSD,Storage,North,11,1320,1320.0
+2025-09-07,AMD,Processor,Components,South,8,2800,2800.0
+2025-09-07,HP,Printer,Office Hardware,South,1,180,180.0
+2025-09-08,ASUS,Monitor,Displays,North,7,1750,1662.5
+2025-09-08,Intel,Tablet,Mobile Hardware,North,9,3600,3600.0
+2025-09-09,Apple,Keyboard,Accessories,East,8,440,440.0
+2025-09-09,Acer,Graphics Card,Components,South,8,5200,4940.0
+2025-09-09,Dell,Mouse,Accessories,East,13,390,331.5
+2025-09-10,Intel,Monitor,Displays,East,6,1500,1500.0
+2025-09-10,Dell,Desktop PC,Computers,North,11,7700,7700.0
+2025-09-11,ASUS,Desktop PC,Computers,West,4,2800,2660.0
+2025-09-11,Apple,Monitor,Displays,East,8,2000,1900.0
+2025-09-11,Lenovo,Desktop PC,Computers,West,3,2100,2100.0
+2025-09-12,Acer,Keyboard,Accessories,South,13,715,607.75
+2025-09-12,HP,Desktop PC,Computers,North,9,6300,5670.0
+2025-09-13,Lenovo,Processor,Components,South,13,4550,4550.0
+2025-09-13,ASUS,Graphics Card,Components,South,2,1300,1300.0
+2025-09-13,Intel,Desktop PC,Computers,North,2,1400,1330.0
+2025-09-14,HP,Graphics Card,Components,South,12,7800,7020.0
+2025-09-14,AMD,Printer,Office Hardware,North,13,2340,2340.0
+2025-09-15,Samsung,Laptop,Computers,West,12,10200,9690.0
+2025-09-15,HP,Keyboard,Accessories,South,7,385,365.75
+2025-09-15,ASUS,Laptop,Computers,North,12,10200,10200.0
+2025-09-16,MSI,Printer,Office Hardware,East,10,1800,1710.0
+2025-09-16,Samsung,Keyboard,Accessories,South,4,220,187.0
+2025-09-17,Dell,Monitor,Displays,West,10,2500,2500.0
+2025-09-17,Acer,Monitor,Displays,North,8,2000,2000.0
+2025-09-17,Dell,Graphics Card,Components,South,9,5850,5850.0
+2025-09-18,HP,Printer,Office Hardware,South,7,1260,1134.0
+2025-09-18,Dell,Graphics Card,Components,South,5,3250,2762.5
+2025-09-19,ASUS,Mouse,Accessories,West,8,240,240.0
+2025-09-19,AMD,Desktop PC,Computers,North,4,2800,2520.0
+2025-09-19,Intel,SSD,Storage,East,2,240,228.0
+2025-09-20,Acer,Mouse,Accessories,East,11,330,313.5
+2025-09-20,Dell,Desktop PC,Computers,East,12,8400,8400.0
+2025-09-21,Dell,Keyboard,Accessories,North,6,330,330.0
+2025-09-21,HP,Graphics Card,Components,East,9,5850,5850.0
+2025-09-22,Intel,Keyboard,Accessories,West,1,55,52.25
+2025-09-22,Lenovo,Keyboard,Accessories,North,11,605,605.0
+2025-09-22,Dell,Desktop PC,Computers,South,10,7000,5950.0
+2025-09-23,ASUS,Printer,Office Hardware,West,12,2160,2160.0
+2025-09-23,MSI,Desktop PC,Computers,South,7,4900,4900.0
+2025-09-24,Acer,Tablet,Mobile Hardware,East,10,4000,3800.0
+2025-09-24,Dell,Monitor,Displays,West,9,2250,2025.0
+2025-09-24,ASUS,Monitor,Displays,North,10,2500,2500.0
+2025-09-25,ASUS,Mouse,Accessories,West,9,270,270.0
+2025-09-25,Acer,Monitor,Displays,South,10,2500,2125.0
+2025-09-26,Lenovo,Desktop PC,Computers,North,11,7700,7700.0
+2025-09-26,ASUS,Processor,Components,West,13,4550,4550.0
+2025-09-26,MSI,Graphics Card,Components,West,3,1950,1755.0
+2025-09-27,ASUS,Desktop PC,Computers,West,11,7700,7700.0
+2025-09-27,ASUS,Desktop PC,Computers,West,13,9100,8645.0
+2025-09-28,ASUS,SSD,Storage,North,5,600,600.0
+2025-09-28,AMD,Graphics Card,Components,South,8,5200,5200.0
+2025-09-28,AMD,Tablet,Mobile Hardware,West,8,3200,3200.0
+2025-09-29,Lenovo,Monitor,Displays,North,4,1000,1000.0
+2025-09-29,Dell,Graphics Card,Components,South,12,7800,7800.0
+2025-09-30,ASUS,Monitor,Displays,West,11,2750,2750.0
+2025-09-30,Intel,Mouse,Accessories,South,11,330,297.0
+2025-09-30,Dell,Graphics Card,Components,South,1,650,650.0
+2025-10-01,Lenovo,Monitor,Displays,North,1,250,250.0
+2025-10-01,Apple,Tablet,Mobile Hardware,South,4,1600,1440.0
+2025-10-02,Dell,Laptop,Computers,North,6,5100,4845.0
+2025-10-02,Dell,Keyboard,Accessories,West,8,440,440.0
+2025-10-02,Samsung,Keyboard,Accessories,South,6,330,280.5
+2025-10-03,HP,Tablet,Mobile Hardware,South,12,4800,4800.0
+2025-10-03,Samsung,SSD,Storage,East,9,1080,1080.0
+2025-10-04,MSI,Laptop,Computers,West,9,7650,6885.0
+2025-10-04,AMD,Mouse,Accessories,West,14,420,399.0
+2025-10-04,AMD,Tablet,Mobile Hardware,East,2,800,800.0
+2025-10-05,HP,Keyboard,Accessories,East,10,550,550.0
+2025-10-05,Acer,Keyboard,Accessories,North,1,55,52.25
+2025-10-06,Acer,Keyboard,Accessories,North,2,110,110.0
+2025-10-06,Lenovo,Printer,Office Hardware,South,5,900,765.0
+2025-10-07,HP,Tablet,Mobile Hardware,South,4,1600,1600.0
+2025-10-07,Dell,Desktop PC,Computers,South,4,2800,2520.0
+2025-10-07,Acer,Mouse,Accessories,South,9,270,256.5
+2025-10-08,ASUS,Keyboard,Accessories,North,11,605,544.5
+2025-10-08,Intel,Monitor,Displays,West,8,2000,1800.0
+2025-10-09,Dell,Tablet,Mobile Hardware,South,6,2400,2280.0
+2025-10-09,MSI,Printer,Office Hardware,West,1,180,180.0
+2025-10-09,ASUS,Tablet,Mobile Hardware,South,2,800,800.0
+2025-10-10,ASUS,Mouse,Accessories,East,6,180,180.0
+2025-10-10,HP,Printer,Office Hardware,South,11,1980,1782.0
+2025-10-11,Lenovo,Mouse,Accessories,South,2,60,54.0
+2025-10-11,MSI,Tablet,Mobile Hardware,South,13,5200,5200.0
+2025-10-11,Acer,Desktop PC,Computers,North,10,7000,7000.0
+2025-10-12,HP,Mouse,Accessories,East,5,150,150.0
+2025-10-12,Acer,Printer,Office Hardware,South,14,2520,2394.0
+2025-10-13,HP,Printer,Office Hardware,South,5,900,855.0
+2025-10-13,HP,Mouse,Accessories,West,6,180,162.0
+2025-10-13,HP,Processor,Components,East,6,2100,1785.0
+2025-10-14,Lenovo,Tablet,Mobile Hardware,South,14,5600,5600.0
+2025-10-14,HP,Processor,Components,West,6,2100,1995.0
+2025-10-15,Apple,SSD,Storage,West,14,1680,1680.0
+2025-10-15,Intel,Tablet,Mobile Hardware,North,2,800,800.0
+2025-10-15,Acer,Mouse,Accessories,West,14,420,420.0
+2025-10-16,Dell,Laptop,Computers,South,10,8500,8500.0
+2025-10-16,Samsung,Mouse,Accessories,North,14,420,378.0
+2025-10-17,MSI,Processor,Components,North,13,4550,4550.0
+2025-10-17,AMD,Desktop PC,Computers,South,14,9800,9310.0
+2025-10-17,Lenovo,Mouse,Accessories,East,3,90,76.5
+2025-10-18,Dell,Mouse,Accessories,West,14,420,378.0
+2025-10-18,ASUS,Desktop PC,Computers,North,6,4200,4200.0
+2025-10-19,Apple,Mouse,Accessories,East,13,390,370.5
+2025-10-19,AMD,Keyboard,Accessories,South,8,440,440.0
+2025-10-19,Samsung,Laptop,Computers,West,12,10200,9180.0
+2025-10-20,Dell,Monitor,Displays,West,13,3250,2925.0
+2025-10-20,AMD,Laptop,Computers,North,11,9350,8882.5
+2025-10-21,Dell,Mouse,Accessories,West,12,360,360.0
+2025-10-21,Apple,Keyboard,Accessories,West,1,55,49.5
+2025-10-21,Samsung,Tablet,Mobile Hardware,West,1,400,400.0
+2025-10-22,ASUS,Mouse,Accessories,West,11,330,330.0
+2025-10-22,HP,Processor,Components,South,13,4550,4550.0
+2025-10-23,Acer,Keyboard,Accessories,East,2,110,110.0
+2025-10-23,ASUS,Desktop PC,Computers,South,11,7700,7700.0
+2025-10-24,HP,Keyboard,Accessories,South,12,660,594.0
+2025-10-24,Lenovo,Desktop PC,Computers,North,12,8400,7140.0
+2025-10-24,Intel,SSD,Storage,West,6,720,720.0
+2025-10-25,MSI,Monitor,Displays,South,9,2250,2250.0
+2025-10-25,MSI,Graphics Card,Components,West,4,2600,2600.0
+2025-10-26,Acer,Keyboard,Accessories,South,3,165,165.0
+2025-10-26,Samsung,Printer,Office Hardware,South,12,2160,2160.0
+2025-10-26,Apple,Processor,Components,North,8,2800,2380.0
+2025-10-27,Samsung,Mouse,Accessories,East,11,330,330.0
+2025-10-27,Apple,Processor,Components,East,10,3500,3500.0
+2025-10-28,Samsung,Laptop,Computers,South,14,11900,11900.0
+2025-10-28,Intel,Graphics Card,Components,North,9,5850,5265.0
+2025-10-28,Lenovo,Laptop,Computers,West,12,10200,9180.0
+2025-10-29,Lenovo,SSD,Storage,West,11,1320,1122.0
+2025-10-29,HP,Graphics Card,Components,South,5,3250,2925.0
+2025-10-30,AMD,Graphics Card,Components,East,9,5850,5850.0
+2025-10-30,Lenovo,Laptop,Computers,North,2,1700,1700.0
+2025-10-30,Lenovo,Desktop PC,Computers,East,3,2100,1995.0
+2025-10-31,ASUS,Laptop,Computers,West,7,5950,5950.0
+2025-10-31,ASUS,Processor,Components,East,7,2450,2327.5
+2025-11-01,HP,Desktop PC,Computers,West,6,4200,4200.0
+2025-11-01,AMD,Processor,Components,North,6,2100,2100.0
+2025-11-01,Acer,SSD,Storage,North,2,240,228.0
+2025-11-02,ASUS,Mouse,Accessories,South,10,300,285.0
+2025-11-02,Acer,Tablet,Mobile Hardware,South,6,2400,2160.0
+2025-11-03,Dell,Desktop PC,Computers,East,4,2800,2800.0
+2025-11-03,ASUS,SSD,Storage,North,12,1440,1368.0
+2025-11-03,Intel,Printer,Office Hardware,North,3,540,540.0
+2025-11-04,AMD,SSD,Storage,South,13,1560,1560.0
+2025-11-04,HP,Laptop,Computers,West,11,9350,9350.0
+2025-11-05,Dell,Laptop,Computers,East,13,11050,11050.0
+2025-11-05,AMD,Tablet,Mobile Hardware,East,2,800,800.0
+2025-11-05,Intel,SSD,Storage,South,1,120,120.0
+2025-11-06,AMD,Monitor,Displays,North,11,2750,2750.0
+2025-11-06,Intel,Mouse,Accessories,South,11,330,330.0
+2025-11-07,Intel,Laptop,Computers,South,5,4250,4250.0
+2025-11-07,Acer,Tablet,Mobile Hardware,South,2,800,800.0
+2025-11-07,Samsung,Mouse,Accessories,South,2,60,60.0
+2025-11-08,Dell,SSD,Storage,West,7,840,798.0
+2025-11-08,AMD,SSD,Storage,West,8,960,960.0
+2025-11-09,Apple,Graphics Card,Components,North,13,8450,8450.0
+2025-11-09,Dell,Tablet,Mobile Hardware,South,10,4000,4000.0
+2025-11-10,Samsung,Laptop,Computers,West,8,6800,6460.0
+2025-11-10,Dell,Monitor,Displays,North,14,3500,3150.0
+2025-11-10,Lenovo,SSD,Storage,South,4,480,432.0
+2025-11-11,Apple,Monitor,Displays,East,14,3500,3150.0
+2025-11-11,Samsung,SSD,Storage,West,1,120,114.0
+2025-11-12,Acer,Laptop,Computers,North,11,9350,8882.5
+2025-11-12,AMD,Mouse,Accessories,East,7,210,199.5
+2025-11-12,MSI,Keyboard,Accessories,South,1,55,55.0
+2025-11-13,Samsung,Mouse,Accessories,South,11,330,330.0
+2025-11-13,HP,SSD,Storage,South,4,480,480.0
+2025-11-14,AMD,Processor,Components,West,8,2800,2380.0
+2025-11-14,Samsung,Keyboard,Accessories,North,2,110,104.5
+2025-11-14,Lenovo,Keyboard,Accessories,East,6,330,297.0
+2025-11-15,MSI,Monitor,Displays,North,13,3250,3250.0
+2025-11-15,Lenovo,Tablet,Mobile Hardware,West,6,2400,2400.0
+2025-11-16,MSI,Monitor,Displays,North,12,3000,3000.0
+2025-11-16,HP,Monitor,Displays,West,9,2250,2250.0
+2025-11-16,AMD,Processor,Components,South,5,1750,1575.0
+2025-11-17,Acer,Mouse,Accessories,East,10,300,285.0
+2025-11-17,Lenovo,Mouse,Accessories,South,4,120,120.0
+2025-11-18,Lenovo,Printer,Office Hardware,North,5,900,810.0
+2025-11-18,Intel,SSD,Storage,South,12,1440,1440.0
+2025-11-18,MSI,Processor,Components,East,12,4200,3570.0
+2025-11-19,ASUS,Printer,Office Hardware,South,10,1800,1800.0
+2025-11-19,AMD,Laptop,Computers,East,11,9350,9350.0
+2025-11-20,MSI,SSD,Storage,East,5,600,600.0
+2025-11-20,Intel,SSD,Storage,South,8,960,960.0
+2025-11-20,Dell,Graphics Card,Components,West,10,6500,6500.0
+2025-11-21,MSI,Graphics Card,Components,North,12,7800,7410.0
+2025-11-21,Acer,Desktop PC,Computers,West,8,5600,5040.0
+2025-11-22,AMD,Desktop PC,Computers,West,2,1400,1260.0
+2025-11-22,Intel,Monitor,Displays,South,7,1750,1750.0
+2025-11-22,Dell,Laptop,Computers,North,8,6800,6460.0
+2025-11-23,Apple,Keyboard,Accessories,North,11,605,605.0
+2025-11-23,Intel,Keyboard,Accessories,West,6,330,330.0
+2025-11-24,Apple,Graphics Card,Components,South,5,3250,3087.5
+2025-11-24,AMD,Graphics Card,Components,North,11,7150,6792.5
+2025-11-24,Lenovo,Graphics Card,Components,West,9,5850,5850.0
+2025-11-25,Intel,Processor,Components,North,13,4550,4550.0
+2025-11-25,HP,Tablet,Mobile Hardware,South,3,1200,1020.0
+2025-11-26,Apple,Desktop PC,Computers,South,12,8400,8400.0
+2025-11-26,Acer,Processor,Components,South,13,4550,4550.0
+2025-11-27,HP,Mouse,Accessories,North,13,390,370.5
+2025-11-27,Samsung,Keyboard,Accessories,East,10,550,550.0
+2025-11-27,Samsung,SSD,Storage,North,4,480,480.0
+2025-11-28,Dell,Desktop PC,Computers,East,9,6300,6300.0
+2025-11-28,Lenovo,Printer,Office Hardware,South,6,1080,972.0
+2025-11-29,AMD,Mouse,Accessories,West,8,240,228.0
+2025-11-29,Intel,Desktop PC,Computers,East,7,4900,4655.0
+2025-11-29,ASUS,Processor,Components,South,11,3850,3272.5
+2025-11-30,Acer,Laptop,Computers,South,2,1700,1530.0
+2025-11-30,Apple,SSD,Storage,East,3,360,360.0
+2025-12-01,AMD,Desktop PC,Computers,West,1,700,700.0
+2025-12-01,HP,Tablet,Mobile Hardware,South,9,3600,3420.0
+2025-12-01,Samsung,Graphics Card,Components,East,13,8450,8027.5
+2025-12-02,Acer,Graphics Card,Components,West,7,4550,4322.5
+2025-12-02,ASUS,SSD,Storage,West,1,120,114.0
+2025-12-03,Intel,Processor,Components,South,3,1050,1050.0
+2025-12-03,Dell,Graphics Card,Components,North,4,2600,2600.0
+2025-12-03,ASUS,Desktop PC,Computers,North,4,2800,2800.0
+2025-12-04,Acer,Printer,Office Hardware,South,5,900,900.0
+2025-12-04,ASUS,Keyboard,Accessories,West,14,770,770.0
+2025-12-05,Acer,Keyboard,Accessories,South,3,165,156.75
+2025-12-05,Acer,Mouse,Accessories,East,3,90,85.5
+2025-12-05,MSI,Monitor,Displays,North,1,250,250.0
+2025-12-06,Apple,Laptop,Computers,East,7,5950,5652.5
+2025-12-06,Samsung,SSD,Storage,South,11,1320,1254.0
+2025-12-07,MSI,Mouse,Accessories,South,10,300,300.0
+2025-12-07,Intel,Monitor,Displays,West,14,3500,3325.0
+2025-12-07,MSI,Processor,Components,West,1,350,315.0
+2025-12-08,Lenovo,Tablet,Mobile Hardware,West,2,800,720.0
+2025-12-08,Lenovo,Tablet,Mobile Hardware,East,13,5200,4940.0
+2025-12-09,Samsung,Laptop,Computers,West,4,3400,3230.0
+2025-12-09,ASUS,Graphics Card,Components,South,13,8450,8450.0
+2025-12-09,Apple,Desktop PC,Computers,West,4,2800,2800.0
+2025-12-10,Samsung,Mouse,Accessories,North,5,150,150.0
+2025-12-10,Acer,Mouse,Accessories,West,11,330,280.5
+2025-12-11,HP,SSD,Storage,East,2,240,240.0
+2025-12-11,Apple,SSD,Storage,North,4,480,480.0
+2025-12-12,Apple,Tablet,Mobile Hardware,North,1,400,360.0
+2025-12-12,Acer,Tablet,Mobile Hardware,North,2,800,680.0
+2025-12-12,Acer,Printer,Office Hardware,East,1,180,162.0
+2025-12-13,Dell,Printer,Office Hardware,South,10,1800,1800.0
+2025-12-13,Samsung,Graphics Card,Components,West,10,6500,6500.0
+2025-12-14,Acer,Printer,Office Hardware,North,13,2340,2340.0
+2025-12-14,Lenovo,Desktop PC,Computers,North,4,2800,2800.0
+2025-12-14,Intel,Desktop PC,Computers,North,4,2800,2800.0
+2025-12-15,HP,Mouse,Accessories,South,7,210,199.5
+2025-12-15,Samsung,Keyboard,Accessories,South,10,550,467.5
+2025-12-16,AMD,Desktop PC,Computers,East,11,7700,7700.0
+2025-12-16,Lenovo,Monitor,Displays,South,11,2750,2612.5
+2025-12-16,ASUS,Tablet,Mobile Hardware,West,9,3600,3420.0
+2025-12-17,Acer,SSD,Storage,East,9,1080,1080.0
+2025-12-17,AMD,Printer,Office Hardware,East,5,900,855.0
+2025-12-18,Acer,Mouse,Accessories,West,10,300,300.0
+2025-12-18,Apple,Laptop,Computers,West,1,850,850.0
+2025-12-18,Lenovo,SSD,Storage,West,1,120,108.0
+2025-12-19,Apple,Monitor,Displays,East,6,1500,1500.0
+2025-12-19,Dell,Printer,Office Hardware,East,2,360,306.0
+2025-12-20,Apple,Monitor,Displays,East,8,2000,2000.0
+2025-12-20,Dell,Tablet,Mobile Hardware,West,13,5200,4940.0
+2025-12-20,Dell,Tablet,Mobile Hardware,West,9,3600,3600.0
+2025-12-21,AMD,Graphics Card,Components,North,13,8450,8450.0
+2025-12-21,Acer,Mouse,Accessories,South,4,120,120.0
+2025-12-22,ASUS,SSD,Storage,North,5,600,570.0
+2025-12-22,Apple,Processor,Components,West,11,3850,3465.0
+2025-12-22,Lenovo,Processor,Components,East,8,2800,2520.0
+2025-12-23,Dell,SSD,Storage,West,3,360,342.0
+2025-12-23,Acer,Laptop,Computers,South,5,4250,3825.0
+2025-12-24,HP,Mouse,Accessories,North,3,90,85.5
+2025-12-24,Samsung,Monitor,Displays,North,12,3000,2700.0
+2025-12-24,AMD,Laptop,Computers,East,10,8500,8075.0
+2025-12-25,ASUS,Keyboard,Accessories,North,3,165,156.75
+2025-12-25,MSI,SSD,Storage,North,3,360,324.0
+2025-12-26,AMD,Monitor,Displays,West,13,3250,3250.0
+2025-12-26,HP,Processor,Components,North,12,4200,3780.0
+2025-12-26,Samsung,Desktop PC,Computers,North,7,4900,4655.0
+2025-12-27,HP,Graphics Card,Components,North,7,4550,4550.0
+2025-12-27,Apple,Processor,Components,East,7,2450,2450.0
+2025-12-28,Dell,Mouse,Accessories,East,10,300,300.0
+2025-12-28,ASUS,Tablet,Mobile Hardware,West,8,3200,3040.0
+2025-12-29,Intel,Desktop PC,Computers,North,5,3500,3150.0
+2025-12-29,Dell,Graphics Card,Components,East,5,3250,3250.0
+2025-12-29,Intel,Graphics Card,Components,East,14,9100,8190.0
+2025-12-30,Samsung,Keyboard,Accessories,West,4,220,198.0
+2025-12-30,Acer,Keyboard,Accessories,South,7,385,385.0
+2025-12-31,MSI,Printer,Office Hardware,North,10,1800,1620.0
+2025-12-31,Lenovo,Processor,Components,East,4,1400,1190.0
+2025-12-31,Dell,Processor,Components,West,2,700,630.0
+2026-01-01,ASUS,Processor,Components,West,4,1400,1260.0
+2026-01-01,HP,Printer,Office Hardware,West,13,2340,1989.0
+2026-01-02,ASUS,Laptop,Computers,East,13,11050,10497.5
+2026-01-02,Samsung,Graphics Card,Components,North,8,5200,5200.0
+2026-01-02,Intel,Desktop PC,Computers,South,9,6300,5670.0
+2026-01-03,HP,Mouse,Accessories,North,3,90,85.5
+2026-01-03,Lenovo,Graphics Card,Components,West,7,4550,4322.5
+2026-01-04,Lenovo,Keyboard,Accessories,West,14,770,770.0
+2026-01-04,Dell,Monitor,Displays,South,12,3000,2700.0
+2026-01-04,Samsung,Tablet,Mobile Hardware,North,14,5600,5600.0
+2026-01-05,Acer,Printer,Office Hardware,West,9,1620,1377.0
+2026-01-05,Samsung,SSD,Storage,West,11,1320,1320.0
+2026-01-06,Intel,Monitor,Displays,North,4,1000,1000.0
+2026-01-06,ASUS,Mouse,Accessories,West,10,300,300.0
+2026-01-06,Lenovo,Processor,Components,North,3,1050,1050.0
+2026-01-07,ASUS,Keyboard,Accessories,West,5,275,261.25
+2026-01-07,ASUS,Keyboard,Accessories,North,1,55,46.75
+2026-01-08,ASUS,Keyboard,Accessories,South,3,165,148.5
+2026-01-08,Lenovo,Processor,Components,West,8,2800,2800.0
+2026-01-08,AMD,SSD,Storage,South,11,1320,1320.0
+2026-01-09,Apple,Printer,Office Hardware,West,8,1440,1296.0
+2026-01-09,Intel,Monitor,Displays,West,13,3250,2762.5
+2026-01-10,AMD,Processor,Components,East,4,1400,1330.0
+2026-01-10,Intel,Mouse,Accessories,North,2,60,57.0
+2026-01-10,HP,Printer,Office Hardware,South,13,2340,2340.0
+2026-01-11,Samsung,Mouse,Accessories,South,8,240,216.0
+2026-01-11,Samsung,Printer,Office Hardware,South,8,1440,1368.0
+2026-01-12,MSI,SSD,Storage,North,10,1200,1200.0
+2026-01-12,Samsung,Tablet,Mobile Hardware,East,4,1600,1600.0
+2026-01-12,Lenovo,Mouse,Accessories,South,3,90,81.0
+2026-01-13,Acer,Processor,Components,North,2,700,700.0
+2026-01-13,Dell,Printer,Office Hardware,West,9,1620,1620.0
+2026-01-14,MSI,Keyboard,Accessories,South,1,55,52.25
+2026-01-14,Dell,Graphics Card,Components,South,7,4550,4550.0
+2026-01-15,Intel,Keyboard,Accessories,East,5,275,275.0
+2026-01-15,Dell,Laptop,Computers,South,8,6800,6120.0
+2026-01-15,Dell,Tablet,Mobile Hardware,South,4,1600,1440.0
+2026-01-16,MSI,Tablet,Mobile Hardware,West,7,2800,2520.0
+2026-01-16,HP,Keyboard,Accessories,North,13,715,643.5
+2026-01-17,ASUS,Monitor,Displays,North,5,1250,1187.5
+2026-01-17,Samsung,SSD,Storage,East,14,1680,1512.0
+2026-01-17,Samsung,Mouse,Accessories,West,5,150,150.0
+2026-01-18,Lenovo,Processor,Components,North,14,4900,4655.0
+2026-01-18,MSI,Tablet,Mobile Hardware,West,9,3600,3060.0
+2026-01-19,Lenovo,Keyboard,Accessories,North,9,495,495.0
+2026-01-19,Acer,Keyboard,Accessories,West,13,715,715.0
+2026-01-19,Acer,SSD,Storage,East,9,1080,1026.0
+2026-01-20,Lenovo,SSD,Storage,South,12,1440,1440.0
+2026-01-20,MSI,Desktop PC,Computers,East,6,4200,4200.0
+2026-01-21,Lenovo,Desktop PC,Computers,North,6,4200,3780.0
+2026-01-21,Samsung,Monitor,Displays,East,5,1250,1062.5
+2026-01-21,AMD,Monitor,Displays,South,9,2250,2250.0
+2026-01-22,Apple,Laptop,Computers,East,10,8500,8500.0
+2026-01-22,Dell,Monitor,Displays,North,8,2000,2000.0
+2026-01-23,Apple,Printer,Office Hardware,North,7,1260,1134.0
+2026-01-23,MSI,SSD,Storage,East,7,840,798.0
+2026-01-23,Apple,Processor,Components,South,6,2100,2100.0
+2026-01-24,Acer,Printer,Office Hardware,East,5,900,855.0
+2026-01-24,Intel,Mouse,Accessories,South,13,390,390.0
+2026-01-25,Dell,Keyboard,Accessories,West,4,220,209.0
+2026-01-25,ASUS,Monitor,Displays,South,3,750,675.0
+2026-01-25,MSI,Keyboard,Accessories,West,3,165,156.75
+2026-01-26,Dell,Tablet,Mobile Hardware,East,6,2400,2280.0
+2026-01-26,Apple,Laptop,Computers,South,4,3400,3400.0
+2026-01-27,Acer,Tablet,Mobile Hardware,West,12,4800,4320.0
+2026-01-27,HP,Laptop,Computers,West,12,10200,9690.0
+2026-01-27,AMD,Desktop PC,Computers,West,6,4200,4200.0
+2026-01-28,ASUS,Keyboard,Accessories,North,3,165,156.75
+2026-01-28,AMD,Laptop,Computers,East,4,3400,3400.0
+2026-01-29,Dell,Graphics Card,Components,West,9,5850,5265.0
+2026-01-29,Acer,Printer,Office Hardware,South,5,900,900.0
+2026-01-30,Acer,Laptop,Computers,West,13,11050,9392.5
+2026-01-30,Apple,Laptop,Computers,North,7,5950,5950.0
+2026-01-30,Samsung,Printer,Office Hardware,East,10,1800,1620.0
+2026-01-31,Apple,Keyboard,Accessories,North,2,110,104.5
+2026-01-31,Samsung,Keyboard,Accessories,North,14,770,693.0
+2026-02-01,Samsung,Printer,Office Hardware,North,14,2520,2520.0
+2026-02-01,ASUS,Tablet,Mobile Hardware,South,5,2000,1900.0
+2026-02-01,Apple,Graphics Card,Components,East,9,5850,5265.0
+2026-02-02,HP,Processor,Components,East,11,3850,3850.0
+2026-02-02,Lenovo,Mouse,Accessories,South,3,90,90.0
+2026-02-03,Lenovo,Graphics Card,Components,East,14,9100,8645.0
+2026-02-03,Apple,Keyboard,Accessories,North,9,495,470.25
+2026-02-03,Apple,Processor,Components,East,14,4900,4900.0
+2026-02-04,AMD,Desktop PC,Computers,South,11,7700,7700.0
+2026-02-04,ASUS,Monitor,Displays,North,6,1500,1500.0
+2026-02-05,Apple,Laptop,Computers,South,4,3400,3060.0
+2026-02-05,AMD,Printer,Office Hardware,West,7,1260,1197.0
+2026-02-05,Samsung,Printer,Office Hardware,North,8,1440,1296.0
+2026-02-06,Acer,Laptop,Computers,North,6,5100,4335.0
+2026-02-06,Acer,Monitor,Displays,East,5,1250,1187.5
+2026-02-07,Samsung,Mouse,Accessories,North,6,180,180.0
+2026-02-07,MSI,Monitor,Displays,South,5,1250,1250.0
+2026-02-07,AMD,Processor,Components,East,8,2800,2800.0
+2026-02-08,AMD,Monitor,Displays,West,1,250,212.5
+2026-02-08,Samsung,Processor,Components,South,11,3850,3657.5
+2026-02-09,HP,Monitor,Displays,West,7,1750,1750.0
+2026-02-09,Intel,Mouse,Accessories,West,10,300,300.0
+2026-02-09,Dell,Mouse,Accessories,West,10,300,285.0
+2026-02-10,Samsung,Keyboard,Accessories,North,11,605,574.75
+2026-02-10,Apple,Laptop,Computers,South,2,1700,1700.0
+2026-02-11,Apple,Mouse,Accessories,South,14,420,357.0
+2026-02-11,ASUS,Processor,Components,North,9,3150,2992.5
+2026-02-11,Samsung,Mouse,Accessories,East,1,30,30.0
+2026-02-12,ASUS,Keyboard,Accessories,West,11,605,544.5
+2026-02-12,Samsung,Printer,Office Hardware,South,10,1800,1800.0
+2026-02-13,AMD,Processor,Components,North,6,2100,1785.0
+2026-02-13,Dell,Keyboard,Accessories,West,9,495,420.75
+2026-02-13,AMD,Tablet,Mobile Hardware,East,1,400,360.0
+2026-02-14,Intel,Tablet,Mobile Hardware,East,4,1600,1440.0
+2026-02-14,Acer,Desktop PC,Computers,West,4,2800,2800.0
+2026-02-15,Lenovo,Monitor,Displays,East,9,2250,1912.5
+2026-02-15,Samsung,Laptop,Computers,South,11,9350,8882.5
+2026-02-16,Intel,SSD,Storage,South,5,600,540.0
+2026-02-16,Acer,Graphics Card,Components,South,5,3250,2762.5
+2026-02-16,MSI,Keyboard,Accessories,East,6,330,280.5
+2026-02-17,Dell,Printer,Office Hardware,South,1,180,162.0
+2026-02-17,ASUS,Graphics Card,Components,North,1,650,650.0
+2026-02-18,ASUS,Printer,Office Hardware,South,9,1620,1377.0
+2026-02-18,AMD,Graphics Card,Components,South,3,1950,1852.5
+2026-02-18,Apple,Keyboard,Accessories,East,4,220,187.0
+2026-02-19,Acer,SSD,Storage,South,1,120,114.0
+2026-02-19,MSI,Graphics Card,Components,West,9,5850,5850.0
+2026-02-20,Intel,Keyboard,Accessories,North,8,440,440.0
+2026-02-20,Dell,Mouse,Accessories,East,2,60,57.0
+2026-02-20,Acer,SSD,Storage,North,8,960,864.0
+2026-02-21,MSI,Processor,Components,West,7,2450,2450.0
+2026-02-21,Lenovo,Printer,Office Hardware,East,11,1980,1881.0
+2026-02-22,Samsung,Tablet,Mobile Hardware,East,6,2400,2400.0
+2026-02-22,ASUS,Monitor,Displays,South,1,250,225.0
+2026-02-22,Intel,Tablet,Mobile Hardware,North,7,2800,2660.0
+2026-02-23,ASUS,SSD,Storage,West,10,1200,1200.0
+2026-02-23,Intel,Processor,Components,West,7,2450,2450.0
+2026-02-24,AMD,Printer,Office Hardware,East,13,2340,2340.0
+2026-02-24,Apple,Processor,Components,South,14,4900,4655.0
+2026-02-24,Intel,Graphics Card,Components,East,9,5850,5850.0
+2026-02-25,ASUS,Printer,Office Hardware,East,1,180,180.0
+2026-02-25,AMD,Graphics Card,Components,East,2,1300,1105.0
+2026-02-26,Intel,Keyboard,Accessories,East,11,605,544.5
+2026-02-26,Lenovo,SSD,Storage,West,9,1080,1026.0
+2026-02-26,Apple,Keyboard,Accessories,West,13,715,607.75
+2026-02-27,Intel,Desktop PC,Computers,East,9,6300,6300.0
+2026-02-27,AMD,Processor,Components,East,13,4550,4322.5
+2026-02-28,Acer,Graphics Card,Components,South,6,3900,3705.0
+2026-02-28,HP,Mouse,Accessories,East,6,180,171.0
+2026-02-28,MSI,Keyboard,Accessories,West,4,220,220.0
+2026-03-01,HP,Desktop PC,Computers,North,4,2800,2660.0
+2026-03-01,HP,Laptop,Computers,West,5,4250,4250.0
+2026-03-02,Dell,Tablet,Mobile Hardware,South,3,1200,1080.0
+2026-03-02,Lenovo,Printer,Office Hardware,West,1,180,180.0
+2026-03-02,Acer,Desktop PC,Computers,North,1,700,700.0
+2026-03-03,Samsung,SSD,Storage,East,12,1440,1440.0
+2026-03-03,Intel,Keyboard,Accessories,North,13,715,715.0
+2026-03-04,MSI,SSD,Storage,East,7,840,798.0
+2026-03-04,Apple,Tablet,Mobile Hardware,East,1,400,400.0
+2026-03-05,Acer,Mouse,Accessories,West,1,30,27.0
+2026-03-05,ASUS,Processor,Components,West,3,1050,1050.0
+2026-03-05,Samsung,Processor,Components,West,10,3500,3500.0
+2026-03-06,Dell,SSD,Storage,South,4,480,456.0
+2026-03-06,Dell,Graphics Card,Components,West,4,2600,2600.0
+2026-03-07,Acer,Mouse,Accessories,South,2,60,57.0
+2026-03-07,AMD,Processor,Components,West,1,350,332.5
+2026-03-07,HP,Mouse,Accessories,East,3,90,90.0
+2026-03-08,ASUS,Desktop PC,Computers,South,11,7700,7700.0
+2026-03-08,Dell,Mouse,Accessories,North,4,120,120.0
+2026-03-09,MSI,Monitor,Displays,South,3,750,750.0
+2026-03-09,Dell,Tablet,Mobile Hardware,South,8,3200,3200.0
+2026-03-09,Apple,Processor,Components,North,14,4900,4900.0
+2026-03-10,Intel,Mouse,Accessories,South,10,300,300.0
+2026-03-10,Dell,SSD,Storage,East,1,120,114.0
+2026-03-11,Apple,Laptop,Computers,West,14,11900,11305.0
+2026-03-11,Acer,Monitor,Displays,North,2,500,475.0
+2026-03-11,Acer,Monitor,Displays,West,13,3250,3250.0
+2026-03-12,Samsung,Graphics Card,Components,East,7,4550,4550.0
+2026-03-12,Dell,Mouse,Accessories,North,4,120,108.0
+2026-03-13,MSI,Graphics Card,Components,West,8,5200,4940.0
+2026-03-13,Dell,Graphics Card,Components,West,11,7150,6435.0
+2026-03-13,MSI,Laptop,Computers,East,13,11050,11050.0
+2026-03-14,Lenovo,Desktop PC,Computers,West,3,2100,1995.0
+2026-03-14,Samsung,Mouse,Accessories,East,6,180,171.0
+2026-03-15,Lenovo,Keyboard,Accessories,South,9,495,495.0
+2026-03-15,Dell,Processor,Components,East,1,350,332.5
+2026-03-15,Samsung,Graphics Card,Components,South,1,650,617.5
+2026-03-16,Lenovo,Tablet,Mobile Hardware,North,8,3200,3200.0
+2026-03-16,HP,Printer,Office Hardware,West,3,540,540.0
+2026-03-17,Dell,Tablet,Mobile Hardware,East,5,2000,1800.0
+2026-03-17,Lenovo,Laptop,Computers,East,1,850,722.5
+2026-03-17,HP,Laptop,Computers,West,5,4250,4250.0
+2026-03-18,HP,SSD,Storage,West,11,1320,1320.0
+2026-03-18,Acer,Desktop PC,Computers,North,6,4200,4200.0
+2026-03-19,Dell,Processor,Components,North,8,2800,2660.0
+2026-03-19,HP,Graphics Card,Components,East,13,8450,8450.0
+2026-03-20,Acer,Tablet,Mobile Hardware,North,14,5600,4760.0
+2026-03-20,Lenovo,Printer,Office Hardware,South,3,540,540.0
+2026-03-20,Apple,Laptop,Computers,North,3,2550,2550.0
+2026-03-21,Dell,Laptop,Computers,North,12,10200,9690.0
+2026-03-21,Samsung,Desktop PC,Computers,East,11,7700,6930.0
+2026-03-22,MSI,Printer,Office Hardware,South,11,1980,1881.0
+2026-03-22,MSI,Printer,Office Hardware,North,10,1800,1800.0
+2026-03-22,Lenovo,Desktop PC,Computers,South,9,6300,5355.0
+2026-03-23,AMD,Laptop,Computers,South,4,3400,3400.0
+2026-03-23,AMD,Processor,Components,South,4,1400,1260.0
+2026-03-24,Lenovo,Mouse,Accessories,West,12,360,360.0
+2026-03-24,HP,Mouse,Accessories,West,7,210,189.0
+2026-03-24,Dell,Desktop PC,Computers,West,2,1400,1330.0
+2026-03-25,MSI,Printer,Office Hardware,West,8,1440,1440.0
+2026-03-25,MSI,Graphics Card,Components,East,6,3900,3510.0
+2026-03-26,HP,Desktop PC,Computers,North,3,2100,2100.0
+2026-03-26,MSI,Processor,Components,West,9,3150,3150.0
+2026-03-26,Samsung,Desktop PC,Computers,East,5,3500,3325.0
+2026-03-27,Dell,Monitor,Displays,North,8,2000,2000.0
+2026-03-27,Intel,Tablet,Mobile Hardware,West,7,2800,2660.0
+2026-03-28,MSI,Printer,Office Hardware,North,14,2520,2520.0
+2026-03-28,Lenovo,SSD,Storage,West,8,960,960.0
+2026-03-28,Samsung,SSD,Storage,East,7,840,840.0
+2026-03-29,MSI,Printer,Office Hardware,South,3,540,540.0
+2026-03-29,Samsung,Processor,Components,South,2,700,665.0
+2026-03-30,Acer,Monitor,Displays,North,7,1750,1575.0
+2026-03-30,Intel,Monitor,Displays,East,3,750,637.5
+2026-03-30,ASUS,Laptop,Computers,South,3,2550,2295.0
+2026-03-31,Lenovo,Tablet,Mobile Hardware,West,2,800,800.0
+2026-03-31,Lenovo,Mouse,Accessories,South,4,120,120.0
+2026-04-01,Dell,Keyboard,Accessories,North,8,440,440.0
+2026-04-01,Samsung,Processor,Components,North,12,4200,4200.0
+2026-04-01,HP,Keyboard,Accessories,East,1,55,52.25
+2026-04-02,Lenovo,Keyboard,Accessories,North,1,55,55.0
+2026-04-02,Samsung,Printer,Office Hardware,South,12,2160,2160.0
+2026-04-03,Samsung,SSD,Storage,South,14,1680,1428.0
+2026-04-03,Apple,SSD,Storage,South,5,600,570.0
+2026-04-03,Apple,Mouse,Accessories,South,11,330,330.0
+2026-04-04,ASUS,Printer,Office Hardware,East,5,900,900.0
+2026-04-04,Acer,Keyboard,Accessories,West,11,605,605.0
+2026-04-05,ASUS,Graphics Card,Components,West,12,7800,7020.0
+2026-04-05,MSI,SSD,Storage,East,1,120,120.0
+2026-04-06,HP,Processor,Components,North,6,2100,2100.0
+2026-04-06,MSI,Processor,Components,West,1,350,350.0
+2026-04-06,AMD,Laptop,Computers,North,5,4250,4037.5
+2026-04-07,MSI,Desktop PC,Computers,West,9,6300,6300.0
+2026-04-07,Dell,Graphics Card,Components,North,12,7800,7020.0
+2026-04-08,MSI,SSD,Storage,East,14,1680,1512.0
+2026-04-08,ASUS,Monitor,Displays,South,5,1250,1125.0
+2026-04-08,Lenovo,SSD,Storage,North,6,720,720.0
+2026-04-09,Lenovo,Laptop,Computers,South,8,6800,6120.0
+2026-04-09,Apple,Processor,Components,North,11,3850,3657.5
+2026-04-10,HP,Keyboard,Accessories,North,1,55,55.0
+2026-04-10,HP,Monitor,Displays,North,14,3500,3325.0
+2026-04-10,Dell,Printer,Office Hardware,North,2,360,360.0
+2026-04-11,ASUS,Tablet,Mobile Hardware,North,9,3600,3600.0
+2026-04-11,Apple,Keyboard,Accessories,South,3,165,148.5
+2026-04-12,AMD,Tablet,Mobile Hardware,North,6,2400,2400.0
+2026-04-12,HP,Graphics Card,Components,South,5,3250,3087.5
+2026-04-12,Lenovo,Desktop PC,Computers,East,11,7700,7700.0
+2026-04-13,MSI,Monitor,Displays,West,2,500,450.0
+2026-04-13,MSI,Mouse,Accessories,North,14,420,357.0
+2026-04-14,Apple,Monitor,Displays,West,7,1750,1575.0
+2026-04-14,ASUS,SSD,Storage,South,4,480,480.0
+2026-04-14,ASUS,Processor,Components,East,1,350,350.0
+2026-04-15,Acer,SSD,Storage,East,13,1560,1482.0
+2026-04-15,Intel,SSD,Storage,East,4,480,480.0
+2026-04-16,HP,Graphics Card,Components,West,6,3900,3900.0
+2026-04-16,ASUS,Keyboard,Accessories,South,7,385,365.75
+2026-04-16,Lenovo,Mouse,Accessories,North,7,210,199.5
+2026-04-17,Apple,Mouse,Accessories,North,14,420,357.0
+2026-04-17,AMD,SSD,Storage,South,7,840,840.0
+2026-04-18,Acer,Tablet,Mobile Hardware,West,3,1200,1200.0
+2026-04-18,Samsung,Graphics Card,Components,North,6,3900,3900.0
+2026-04-18,Dell,SSD,Storage,South,13,1560,1326.0
+2026-04-19,AMD,Desktop PC,Computers,North,8,5600,5040.0
+2026-04-19,Samsung,Processor,Components,East,4,1400,1260.0
+2026-04-20,MSI,Keyboard,Accessories,North,13,715,607.75
+2026-04-20,Dell,Printer,Office Hardware,West,8,1440,1368.0
+2026-04-20,HP,Desktop PC,Computers,South,2,1400,1330.0
+2026-04-21,Lenovo,Tablet,Mobile Hardware,West,10,4000,4000.0
+2026-04-21,Dell,Monitor,Displays,South,9,2250,2137.5
+2026-04-22,Intel,Monitor,Displays,East,9,2250,2137.5
+2026-04-22,Samsung,Desktop PC,Computers,South,8,5600,5320.0
+2026-04-23,HP,SSD,Storage,North,10,1200,1020.0
+2026-04-23,Intel,Printer,Office Hardware,North,14,2520,2142.0
+2026-04-23,MSI,Laptop,Computers,East,13,11050,9945.0
+2026-04-24,Intel,Laptop,Computers,South,10,8500,7650.0
+2026-04-24,Acer,Tablet,Mobile Hardware,East,1,400,380.0
+2026-04-25,Acer,SSD,Storage,North,2,240,240.0
+2026-04-25,Apple,Mouse,Accessories,West,6,180,180.0
+2026-04-25,AMD,Mouse,Accessories,East,10,300,285.0
+2026-04-26,AMD,Keyboard,Accessories,West,5,275,247.5
+2026-04-26,HP,Printer,Office Hardware,West,12,2160,2160.0
+2026-04-27,MSI,Printer,Office Hardware,South,14,2520,2142.0
+2026-04-27,ASUS,Monitor,Displays,East,9,2250,2250.0
+2026-04-27,Acer,Graphics Card,Components,West,5,3250,3250.0
+2026-04-28,HP,Tablet,Mobile Hardware,West,2,800,760.0
+2026-04-28,ASUS,Laptop,Computers,South,10,8500,8500.0
+2026-04-29,AMD,Tablet,Mobile Hardware,South,4,1600,1600.0
+2026-04-29,Apple,Mouse,Accessories,North,9,270,270.0
+2026-04-29,Intel,Mouse,Accessories,West,1,30,27.0
+2026-04-30,Acer,Desktop PC,Computers,North,11,7700,7700.0
+2026-04-30,HP,Keyboard,Accessories,West,1,55,52.25
+2026-05-01,Dell,Printer,Office Hardware,North,12,2160,2052.0
+2026-05-01,ASUS,Processor,Components,South,7,2450,2450.0
+2026-05-01,Intel,Tablet,Mobile Hardware,East,11,4400,3740.0
+2026-05-02,Acer,Mouse,Accessories,South,3,90,90.0
+2026-05-02,AMD,Graphics Card,Components,North,10,6500,5525.0
+2026-05-03,MSI,Monitor,Displays,North,2,500,475.0
+2026-05-03,ASUS,Laptop,Computers,East,9,7650,6502.5
+2026-05-03,AMD,Keyboard,Accessories,West,3,165,165.0
+2026-05-04,Acer,Graphics Card,Components,North,2,1300,1235.0
+2026-05-04,ASUS,Keyboard,Accessories,North,12,660,660.0
+2026-05-05,Intel,Desktop PC,Computers,North,8,5600,5600.0
+2026-05-05,Acer,Processor,Components,East,10,3500,3325.0
+2026-05-05,Samsung,Mouse,Accessories,South,6,180,180.0
+2026-05-06,HP,Monitor,Displays,North,6,1500,1425.0
+2026-05-06,Intel,Graphics Card,Components,East,10,6500,6500.0
+2026-05-07,ASUS,Keyboard,Accessories,North,11,605,605.0
+2026-05-07,MSI,Printer,Office Hardware,West,7,1260,1134.0
+2026-05-07,AMD,Desktop PC,Computers,East,7,4900,4900.0
+2026-05-08,Dell,Printer,Office Hardware,North,11,1980,1881.0
+2026-05-08,AMD,Monitor,Displays,East,13,3250,3087.5
+2026-05-09,ASUS,Graphics Card,Components,North,6,3900,3510.0
+2026-05-09,AMD,Desktop PC,Computers,South,4,2800,2800.0
+2026-05-10,HP,Graphics Card,Components,North,11,7150,6792.5
+2026-05-10,Acer,Mouse,Accessories,East,9,270,229.5
+2026-05-10,Dell,SSD,Storage,West,6,720,648.0
+2026-05-11,Lenovo,Desktop PC,Computers,West,4,2800,2660.0
+2026-05-11,ASUS,Printer,Office Hardware,West,12,2160,2052.0
+2026-05-12,Apple,Monitor,Displays,North,3,750,675.0
+2026-05-12,Lenovo,Processor,Components,South,4,1400,1330.0
+2026-05-12,AMD,Mouse,Accessories,North,3,90,90.0
+2026-05-13,ASUS,SSD,Storage,West,2,240,240.0
+2026-05-13,Samsung,Processor,Components,East,14,4900,4410.0
+2026-05-14,Apple,Laptop,Computers,West,5,4250,4250.0
+2026-05-14,Dell,Mouse,Accessories,East,2,60,54.0
+2026-05-14,MSI,Monitor,Displays,South,6,1500,1500.0
+2026-05-15,Samsung,Keyboard,Accessories,East,3,165,156.75
+2026-05-15,Lenovo,Desktop PC,Computers,North,6,4200,4200.0
+2026-05-16,Acer,Graphics Card,Components,North,11,7150,7150.0
+2026-05-16,HP,Monitor,Displays,North,10,2500,2125.0
+2026-05-16,MSI,Desktop PC,Computers,East,9,6300,5670.0
+2026-05-17,Samsung,Processor,Components,North,1,350,332.5
+2026-05-17,Acer,Graphics Card,Components,North,6,3900,3705.0
+2026-05-18,Acer,Tablet,Mobile Hardware,North,9,3600,3420.0
+2026-05-18,ASUS,Printer,Office Hardware,South,11,1980,1881.0
+2026-05-18,Samsung,Laptop,Computers,East,4,3400,3230.0
+2026-05-19,Dell,Mouse,Accessories,East,11,330,330.0
+2026-05-19,AMD,Monitor,Displays,West,12,3000,2850.0
+2026-05-20,Apple,Laptop,Computers,East,2,1700,1530.0
+2026-05-20,Apple,Keyboard,Accessories,South,13,715,607.75
+2026-05-20,Lenovo,Desktop PC,Computers,East,4,2800,2800.0
+2026-05-21,Lenovo,Desktop PC,Computers,South,1,700,630.0
+2026-05-21,Apple,Monitor,Displays,South,3,750,712.5
+2026-05-22,Dell,SSD,Storage,East,10,1200,1200.0
+2026-05-22,HP,SSD,Storage,West,9,1080,1080.0
+2026-05-22,Intel,Tablet,Mobile Hardware,North,10,4000,4000.0
+2026-05-23,AMD,Printer,Office Hardware,North,5,900,900.0
+2026-05-23,HP,Graphics Card,Components,East,11,7150,7150.0
+2026-05-24,ASUS,Keyboard,Accessories,East,6,330,297.0
+2026-05-24,Intel,Laptop,Computers,South,3,2550,2295.0
+2026-05-25,Intel,SSD,Storage,East,5,600,570.0
+2026-05-25,Samsung,Tablet,Mobile Hardware,South,11,4400,3740.0
+2026-05-25,Dell,Tablet,Mobile Hardware,West,8,3200,3200.0
+2026-05-26,Dell,Monitor,Displays,East,6,1500,1500.0
+2026-05-26,Intel,Keyboard,Accessories,North,4,220,209.0
+2026-05-27,Samsung,Processor,Components,North,2,700,700.0
+2026-05-27,AMD,Graphics Card,Components,East,14,9100,9100.0
+2026-05-27,Intel,Printer,Office Hardware,South,9,1620,1620.0
+2026-05-28,MSI,Mouse,Accessories,North,13,390,390.0
+2026-05-28,Lenovo,Monitor,Displays,South,12,3000,2700.0
+2026-05-29,Lenovo,Graphics Card,Components,East,1,650,650.0
+2026-05-29,HP,Mouse,Accessories,East,1,30,28.5
+2026-05-29,ASUS,Mouse,Accessories,North,13,390,390.0
+2026-05-30,Lenovo,Keyboard,Accessories,East,4,220,209.0
+2026-05-30,Acer,Keyboard,Accessories,West,7,385,385.0
+2026-05-31,HP,Laptop,Computers,West,1,850,765.0
+2026-05-31,Lenovo,Tablet,Mobile Hardware,North,9,3600,3600.0
+2026-05-31,ASUS,Graphics Card,Components,West,4,2600,2600.0
+2026-06-01,Dell,Monitor,Displays,South,3,750,712.5
+2026-06-01,Dell,Desktop PC,Computers,North,1,700,700.0
+2026-06-02,AMD,Monitor,Displays,North,10,2500,2500.0
+2026-06-02,Intel,Laptop,Computers,South,4,3400,3400.0
+2026-06-02,MSI,Printer,Office Hardware,West,9,1620,1377.0
+2026-06-03,Dell,Tablet,Mobile Hardware,West,13,5200,5200.0
+2026-06-03,Samsung,Desktop PC,Computers,West,14,9800,9310.0
+2026-06-04,Lenovo,SSD,Storage,North,10,1200,1200.0
+2026-06-04,Samsung,Printer,Office Hardware,North,6,1080,1080.0
+2026-06-04,ASUS,Keyboard,Accessories,West,6,330,330.0
+2026-06-05,Dell,Mouse,Accessories,East,1,30,25.5
+2026-06-05,MSI,SSD,Storage,West,10,1200,1200.0
+2026-06-06,ASUS,Monitor,Displays,South,2,500,500.0
+2026-06-06,Acer,Monitor,Displays,North,11,2750,2750.0
+2026-06-06,Acer,Keyboard,Accessories,South,6,330,330.0
+2026-06-07,Samsung,Laptop,Computers,South,2,1700,1700.0
+2026-06-07,Intel,Graphics Card,Components,North,3,1950,1852.5
+2026-06-08,HP,SSD,Storage,East,4,480,480.0
+2026-06-08,Intel,SSD,Storage,West,11,1320,1320.0
+2026-06-08,AMD,Processor,Components,South,5,1750,1575.0
+2026-06-09,Intel,Printer,Office Hardware,North,9,1620,1620.0
+2026-06-09,AMD,Tablet,Mobile Hardware,South,12,4800,4800.0
+2026-06-10,AMD,Printer,Office Hardware,West,4,720,720.0
+2026-06-10,MSI,Graphics Card,Components,East,13,8450,8027.5
+2026-06-11,Dell,Monitor,Displays,East,11,2750,2750.0
+2026-06-11,MSI,Monitor,Displays,East,9,2250,2137.5
+2026-06-11,AMD,Monitor,Displays,North,11,2750,2750.0
+2026-06-12,ASUS,Processor,Components,North,10,3500,3325.0
+2026-06-12,Acer,Monitor,Displays,East,3,750,750.0
+2026-06-13,AMD,Graphics Card,Components,West,8,5200,4940.0
+2026-06-13,MSI,Keyboard,Accessories,West,12,660,594.0
+2026-06-13,ASUS,Tablet,Mobile Hardware,North,1,400,380.0
+2026-06-14,MSI,Graphics Card,Components,East,11,7150,7150.0
+2026-06-14,Intel,Tablet,Mobile Hardware,West,9,3600,3600.0
+2026-06-15,Lenovo,Graphics Card,Components,West,9,5850,5850.0
+2026-06-15,Samsung,Monitor,Displays,West,10,2500,2500.0
+2026-06-15,HP,Keyboard,Accessories,North,2,110,110.0
+2026-06-16,MSI,SSD,Storage,East,4,480,432.0
+2026-06-16,HP,Printer,Office Hardware,South,13,2340,2340.0
+2026-06-17,Apple,Mouse,Accessories,East,8,240,240.0
+2026-06-17,MSI,Keyboard,Accessories,East,7,385,365.75
+2026-06-17,Lenovo,SSD,Storage,North,1,120,114.0
+2026-06-18,HP,Laptop,Computers,West,5,4250,4250.0
+2026-06-18,AMD,Graphics Card,Components,West,7,4550,4095.0
+2026-06-19,MSI,Laptop,Computers,North,4,3400,3400.0
+2026-06-19,Dell,SSD,Storage,North,1,120,108.0
+2026-06-19,Samsung,Keyboard,Accessories,North,9,495,445.5
+2026-06-20,Lenovo,Graphics Card,Components,North,14,9100,8190.0
+2026-06-20,HP,Mouse,Accessories,North,5,150,142.5
+2026-06-21,Lenovo,Monitor,Displays,South,11,2750,2750.0
+2026-06-21,ASUS,Graphics Card,Components,East,2,1300,1300.0
+2026-06-21,Samsung,Graphics Card,Components,East,8,5200,4940.0
+2026-06-22,AMD,Keyboard,Accessories,East,11,605,605.0
+2026-06-22,MSI,Keyboard,Accessories,West,13,715,643.5
+2026-06-23,MSI,SSD,Storage,South,2,240,240.0
+2026-06-23,MSI,Desktop PC,Computers,East,3,2100,2100.0
+2026-06-23,Samsung,Graphics Card,Components,West,14,9100,9100.0
+2026-06-24,Dell,Printer,Office Hardware,South,10,1800,1800.0
+2026-06-24,Apple,Graphics Card,Components,South,1,650,617.5
+2026-06-25,Acer,SSD,Storage,West,11,1320,1188.0
+2026-06-25,Intel,Tablet,Mobile Hardware,South,2,800,760.0
+2026-06-25,HP,Laptop,Computers,West,14,11900,10710.0
+2026-06-26,Dell,Monitor,Displays,East,7,1750,1575.0
+2026-06-26,AMD,Desktop PC,Computers,West,10,7000,6300.0
+2026-06-27,HP,Mouse,Accessories,South,2,60,60.0
+2026-06-27,MSI,Mouse,Accessories,East,6,180,162.0
+2026-06-28,Lenovo,Mouse,Accessories,East,3,90,90.0
+2026-06-28,AMD,Keyboard,Accessories,North,4,220,220.0
+2026-06-28,HP,Mouse,Accessories,North,11,330,313.5
+2026-06-29,MSI,Monitor,Displays,South,13,3250,3250.0
+2026-06-29,HP,Laptop,Computers,West,8,6800,6800.0
+2026-06-30,Lenovo,Mouse,Accessories,West,14,420,420.0
+2026-06-30,MSI,Graphics Card,Components,South,3,1950,1950.0
+2026-06-30,Apple,Graphics Card,Components,East,10,6500,5525.0
+2026-07-01,Dell,Keyboard,Accessories,South,6,330,330.0
+2026-07-01,ASUS,Monitor,Displays,South,1,250,250.0
+2026-07-02,Intel,Laptop,Computers,East,7,5950,5950.0
+2026-07-02,Samsung,Desktop PC,Computers,West,8,5600,5600.0
+2026-07-02,Intel,SSD,Storage,South,11,1320,1122.0
+2026-07-03,AMD,Laptop,Computers,West,14,11900,11900.0
+2026-07-03,Intel,SSD,Storage,South,8,960,912.0
+2026-07-04,MSI,Tablet,Mobile Hardware,East,3,1200,1140.0
+2026-07-04,Apple,SSD,Storage,East,14,1680,1428.0
+2026-07-04,ASUS,Printer,Office Hardware,North,10,1800,1710.0
+2026-07-05,Dell,Graphics Card,Components,East,1,650,585.0
+2026-07-05,Dell,Monitor,Displays,North,9,2250,2250.0
+2026-07-06,Lenovo,Processor,Components,South,13,4550,4550.0
+2026-07-06,Samsung,Keyboard,Accessories,West,6,330,330.0
+2026-07-06,HP,Printer,Office Hardware,East,11,1980,1782.0
+2026-07-07,Apple,SSD,Storage,East,9,1080,1080.0
+2026-07-07,HP,Mouse,Accessories,East,7,210,210.0
+2026-07-08,ASUS,Monitor,Displays,South,1,250,250.0
+2026-07-08,Intel,Printer,Office Hardware,North,12,2160,2160.0
+2026-07-08,Dell,Keyboard,Accessories,South,12,660,660.0
+2026-07-09,ASUS,Graphics Card,Components,West,1,650,552.5
+2026-07-09,Intel,Monitor,Displays,South,6,1500,1500.0
+2026-07-10,Dell,Keyboard,Accessories,West,5,275,261.25
+2026-07-10,Intel,Tablet,Mobile Hardware,East,9,3600,3240.0
+2026-07-10,Samsung,Tablet,Mobile Hardware,West,2,800,800.0
+2026-07-11,Apple,Keyboard,Accessories,West,8,440,440.0
+2026-07-11,AMD,Printer,Office Hardware,North,11,1980,1980.0
+2026-07-12,ASUS,Monitor,Displays,West,5,1250,1250.0
+2026-07-12,ASUS,Printer,Office Hardware,West,2,360,342.0
+2026-07-13,Acer,Desktop PC,Computers,South,13,9100,9100.0
+2026-07-13,MSI,SSD,Storage,East,10,1200,1200.0
+2026-07-13,Samsung,Desktop PC,Computers,South,11,7700,7315.0
+2026-07-14,Samsung,Tablet,Mobile Hardware,South,11,4400,3740.0
+2026-07-14,HP,Graphics Card,Components,East,12,7800,7020.0
+2026-07-15,Intel,Laptop,Computers,East,6,5100,4590.0
+2026-07-15,MSI,SSD,Storage,West,10,1200,1080.0
+2026-07-15,Apple,Tablet,Mobile Hardware,West,8,3200,3200.0
+2026-07-16,Apple,Printer,Office Hardware,North,4,720,648.0
+2026-07-16,Samsung,Printer,Office Hardware,South,2,360,360.0
+2026-07-17,Apple,Printer,Office Hardware,East,12,2160,2052.0
+2026-07-17,Acer,Graphics Card,Components,West,11,7150,6792.5
+2026-07-17,ASUS,Desktop PC,Computers,East,5,3500,3500.0
+2026-07-18,Lenovo,Laptop,Computers,West,12,10200,9180.0
+2026-07-18,AMD,Printer,Office Hardware,North,2,360,306.0
+2026-07-19,HP,Processor,Components,North,2,700,700.0
+2026-07-19,Intel,SSD,Storage,East,6,720,648.0
+2026-07-19,AMD,Monitor,Displays,North,11,2750,2750.0
+2026-07-20,Intel,Processor,Components,East,10,3500,3325.0
+2026-07-20,Dell,Laptop,Computers,West,9,7650,7267.5
+2026-07-21,AMD,Graphics Card,Components,South,13,8450,8027.5
+2026-07-21,Lenovo,Laptop,Computers,North,4,3400,2890.0
+2026-07-21,Samsung,Monitor,Displays,West,6,1500,1350.0
+2026-07-22,Acer,SSD,Storage,South,7,840,756.0
+2026-07-22,ASUS,Monitor,Displays,South,13,3250,3250.0
+2026-07-23,ASUS,Keyboard,Accessories,South,11,605,514.25
+2026-07-23,Acer,SSD,Storage,West,6,720,720.0
+2026-07-23,MSI,Laptop,Computers,West,8,6800,6120.0
+2026-07-24,Dell,Printer,Office Hardware,East,4,720,720.0
+2026-07-24,Intel,Laptop,Computers,South,12,10200,10200.0
+2026-07-25,Lenovo,Laptop,Computers,South,1,850,807.5
+2026-07-25,Apple,SSD,Storage,South,7,840,840.0
+2026-07-25,AMD,Keyboard,Accessories,East,3,165,165.0
+2026-07-26,Dell,Laptop,Computers,South,14,11900,11900.0
+2026-07-26,AMD,Processor,Components,West,6,2100,2100.0
+2026-07-27,Lenovo,Tablet,Mobile Hardware,South,2,800,800.0
+2026-07-27,HP,Mouse,Accessories,North,9,270,270.0
+2026-07-27,HP,Mouse,Accessories,West,1,30,30.0
+2026-07-28,Dell,Laptop,Computers,East,6,5100,5100.0
+2026-07-28,Samsung,Processor,Components,South,6,2100,1995.0
+2026-07-29,Lenovo,Printer,Office Hardware,North,5,900,900.0
+2026-07-29,Lenovo,Graphics Card,Components,East,13,8450,7182.5
+2026-07-30,Acer,Graphics Card,Components,East,5,3250,2925.0
+2026-07-30,Samsung,SSD,Storage,West,1,120,120.0
+2026-07-30,Intel,Mouse,Accessories,East,10,300,270.0
+2026-07-31,Intel,Laptop,Computers,East,12,10200,9180.0
+2026-07-31,Apple,Graphics Card,Components,East,5,3250,2762.5
+2026-08-01,ASUS,Laptop,Computers,East,2,1700,1615.0
+2026-08-01,HP,SSD,Storage,South,7,840,840.0
+2026-08-01,Intel,Mouse,Accessories,South,3,90,85.5
+2026-08-02,Samsung,Monitor,Displays,South,13,3250,3087.5
+2026-08-02,Lenovo,Tablet,Mobile Hardware,South,4,1600,1520.0
+2026-08-03,Intel,Tablet,Mobile Hardware,North,3,1200,1200.0
+2026-08-03,Lenovo,Graphics Card,Components,South,3,1950,1755.0
+2026-08-03,Intel,Tablet,Mobile Hardware,East,4,1600,1360.0
+2026-08-04,HP,Monitor,Displays,South,5,1250,1250.0
+2026-08-04,AMD,Laptop,Computers,South,1,850,850.0
+2026-08-05,Intel,SSD,Storage,West,4,480,480.0
+2026-08-05,Samsung,Monitor,Displays,East,12,3000,2700.0
+2026-08-05,Intel,SSD,Storage,South,12,1440,1368.0
+2026-08-06,ASUS,SSD,Storage,South,11,1320,1254.0
+2026-08-06,HP,Mouse,Accessories,South,8,240,240.0
+2026-08-07,Samsung,Laptop,Computers,North,10,8500,8075.0
+2026-08-07,Acer,Processor,Components,South,7,2450,2450.0
+2026-08-07,Samsung,Tablet,Mobile Hardware,West,9,3600,3420.0
+2026-08-08,ASUS,Processor,Components,East,5,1750,1575.0
+2026-08-08,AMD,Mouse,Accessories,East,13,390,331.5
+2026-08-09,HP,SSD,Storage,South,10,1200,1020.0
+2026-08-09,Acer,Graphics Card,Components,South,4,2600,2210.0
+2026-08-09,ASUS,Tablet,Mobile Hardware,South,8,3200,3200.0
+2026-08-10,ASUS,Tablet,Mobile Hardware,East,9,3600,3420.0
+2026-08-10,Dell,Laptop,Computers,East,13,11050,9945.0
+2026-08-11,HP,Keyboard,Accessories,North,7,385,327.25
+2026-08-11,Samsung,Desktop PC,Computers,West,14,9800,9800.0
+2026-08-11,Lenovo,Desktop PC,Computers,North,7,4900,4900.0
+2026-08-12,AMD,Desktop PC,Computers,West,5,3500,3500.0
+2026-08-12,Lenovo,Keyboard,Accessories,North,4,220,209.0
+2026-08-13,Samsung,Laptop,Computers,East,14,11900,11900.0
+2026-08-13,Samsung,Keyboard,Accessories,North,10,550,550.0
+2026-08-13,HP,Desktop PC,Computers,West,1,700,700.0
+2026-08-14,Samsung,Mouse,Accessories,South,10,300,300.0
+2026-08-14,Dell,Monitor,Displays,West,10,2500,2250.0
+2026-08-15,Acer,SSD,Storage,South,7,840,840.0
+2026-08-15,Samsung,Keyboard,Accessories,East,1,55,52.25
+2026-08-16,Lenovo,Laptop,Computers,West,1,850,807.5
+2026-08-16,Samsung,Laptop,Computers,North,5,4250,3825.0
+2026-08-16,Dell,Processor,Components,West,13,4550,4550.0
+2026-08-17,Intel,Monitor,Displays,South,9,2250,1912.5
+2026-08-17,Intel,Graphics Card,Components,East,6,3900,3705.0
+2026-08-18,ASUS,Tablet,Mobile Hardware,North,3,1200,1020.0
+2026-08-18,AMD,Desktop PC,Computers,West,13,9100,7735.0
+2026-08-18,Apple,Graphics Card,Components,South,3,1950,1950.0
+2026-08-19,Acer,Processor,Components,North,7,2450,2450.0
+2026-08-19,MSI,Desktop PC,Computers,East,6,4200,4200.0
+2026-08-20,ASUS,Monitor,Displays,North,9,2250,2137.5
+2026-08-20,AMD,Processor,Components,East,6,2100,2100.0
+2026-08-20,Intel,Desktop PC,Computers,North,5,3500,3500.0
+2026-08-21,Lenovo,Monitor,Displays,West,10,2500,2375.0
+2026-08-21,MSI,Printer,Office Hardware,South,7,1260,1260.0
+2026-08-22,AMD,Graphics Card,Components,West,1,650,650.0
+2026-08-22,AMD,Graphics Card,Components,West,12,7800,7800.0
+2026-08-22,ASUS,Tablet,Mobile Hardware,East,7,2800,2800.0
+2026-08-23,MSI,Monitor,Displays,East,3,750,750.0
+2026-08-23,HP,Keyboard,Accessories,East,14,770,731.5
+2026-08-24,Apple,Printer,Office Hardware,West,9,1620,1539.0
+2026-08-24,HP,Mouse,Accessories,North,6,180,162.0
+2026-08-24,MSI,Desktop PC,Computers,North,9,6300,5985.0
+2026-08-25,HP,Printer,Office Hardware,West,13,2340,2223.0
+2026-08-25,Dell,Monitor,Displays,West,5,1250,1250.0
+2026-08-26,Intel,SSD,Storage,South,7,840,756.0
+2026-08-26,Dell,Desktop PC,Computers,East,13,9100,8190.0
+2026-08-26,Samsung,Laptop,Computers,East,14,11900,10710.0
+2026-08-27,HP,Graphics Card,Components,West,4,2600,2470.0
+2026-08-27,Samsung,Monitor,Displays,West,7,1750,1750.0
+2026-08-28,Lenovo,Laptop,Computers,North,13,11050,11050.0
+2026-08-28,Acer,Tablet,Mobile Hardware,West,1,400,400.0
+2026-08-28,Lenovo,Processor,Components,North,7,2450,2082.5
+2026-08-29,MSI,Mouse,Accessories,West,8,240,228.0
+2026-08-29,AMD,Mouse,Accessories,South,5,150,135.0
+2026-08-30,Intel,Laptop,Computers,South,2,1700,1700.0
+2026-08-30,HP,Graphics Card,Components,North,5,3250,2925.0
+2026-08-31,ASUS,Tablet,Mobile Hardware,East,6,2400,2400.0
